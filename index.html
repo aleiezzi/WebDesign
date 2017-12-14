@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="it">
+     <head>
+        <!-- Viewport -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Tag META -->
+        <title>Tutorato Web Design</title>
+        <meta name="description" content="Descrizione della pagina">
+        <meta name="alessio" content="alesiso iezzi">
+        
+        <!-- CSS -->
+        <!--<link href="css/custom.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">-->
+         
+         <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/custom_css.css" rel="stylesheet">
+
+<!-- Font Aggiuntivi -->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+        <!-- Inserite qui i contenuti della pagina web -->
+        
+        
+            
+       <!-- Navigation -->
+       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="container">
+            <!-- Brand e toggle per mobile -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigazione</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                
+                <!-- Brand -->
+                    <a class="navbar-brand">WD</a>
+                </div>
+                <!-- Insieme di links, forms, and altri componenti per la navbar -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">Nome</a>
+                            </li>
+                        </ul>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="#">Nome</a></li>
+                            <li><a href="#">Nome</a></li>
+                            <li><a href="#">Nome</a></li>
+                            
+                        </ul>
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Nome</a></li>
+                                <!-- Dichiarazione del munu --> 
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <!-- separatore --> 
+                                        <li role="separator" class="divider"></li>
+                                        <!-- voce non selezionabile -->
+                                        <li class="dropdown-header">Nav header</li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- /.navbar-collapse --> 
+            </div>
+    <!-- /.container -->
+     </div>
+    
+        </nav>
+<!-- /Navigation -->
+        
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div id="myCarousel" class="carousel slide">
+            <!-- indicatori -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item">
+                    <img src="immagini_carousel/header-bg.png" alt="Welcome">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Carousel</h1>
+                            <p>Questo è un testo di paragrafo, Prova a cambiarmi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <img src="immagini_carousel/header-bg_2.png" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Titolo</h1>
+                            <p>Attenzione a quanto scrivi come titolo! Potrebbe non piacerti il risultato. Prova!!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+  <!-- Controls -->
+      <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   
+        
+<section id="ilTuoID" class="visible">
+      
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2 class="section-heading">Forme e Colori! </h2>
+                <h3 class="section-subheading text-primary">Vogliamo nascondere questa sezione quando la risoluzione scende. Prova a vedere come sparisco!</h3>
+            </div>
+        </div>
+    <div class="row text-center">
+        
+        <div class="col-sm-4">
+        <section id="services" class="hidden-xs">
+            <img class="img-circle responsive" src="img/grey_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            </section>
+            <h2>Circle</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
+        </div> 
+        <div class="col-sm-4">
+            <section id="services" class="hidden-xs">
+            <img class="img-square responsive" src="img/green_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            </section>
+            <h2>Thumbnail</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
+        </div> 
+        <div class="col-sm-4">
+            <section id="services" class="hidden-xs">
+            <img class="img-square2 responsive" src="img/blue_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            </section>
+            <h2>Rounded</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
+        </div> 
+                    
+    </div>
+</div>
+</section>
+  
+        
+        
+        
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+        
+         <!-- Featurettes -->
+
+        <section id="featurettes">
+            
+            <div class="container featurette">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Lorem ipsum sezione</h2>
+                            <h3 class="section-subheading text-muted">Vogliamo accedere a questa sezione anche attraverso il link della nav-bar.</h3>
+                        </div>
+                    </div>
+                    <div class="row featurette">
+                        <div class="row">
+                        <div class="col-sm-7 text-center">
+                            <h2 class="featurette-heading"><em>Testo della figurete</em></h2>
+                            <p class="lead">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?                     <br><br>
+                                <a class="btn btn-default" href="#" role="button">See for yourself</a></p>
+                        </div></div>
+                        <div class="row text-center">
+                        <div class="col-sm-12 hidden-xs">
+                            <img class="featurette-image  img-centered" alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
+                        </div></div>
+                    </div>
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-sm-5 hidden-xs">
+                            <img class="featurette-image  img-centered img-circle"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
+                        </div>
+                        <div class="col-sm-7">
+                            <h2 class="featurette-heading">Cambiamo il testo <span class="text-danger">questo è danger! </span></h2>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">See for yourself</a></p>
+                        </div>
+
+                    </div>
+                       <hr class="featurette-divider"> 
+                
+                     <div class="row featurette">
+                        
+                        <div class="col-sm-7">
+                            <h2 class="featurette-heading">Cambiamo il testo <span class="text-success">questo è success! </span></h2>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">See for yourself</a></p>
+                        </div>
+                         <div class="col-sm-5 hidden-xs">
+                            <img class="featurette-image  img-centered img-rounded"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
+                        </div>
+                    </div>    
+                </div>
+                
+                </section>
+
+        
+        
+        
+        
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        
+        
+        
+        
+        <!-- Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <!-- jQuery -->
+      
+      
+        
+        <script src="imsky-holder-8220898/holder.js"></script>
+        
+       
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
