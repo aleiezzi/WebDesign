@@ -1,3 +1,13 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	font-size: 120%;
+}
+
 .navbar li a {
     text-transform: uppercase;!important
     font-weight: 500;!important
@@ -12,9 +22,41 @@
 .navbar .navbar-brand:focus,
 .navbar .navbar-brand:active,
 .navbar .navbar-brand.active {
-    color: #0000ff;
+    color: #ffffff;
 }  
 
-.footer {
-  background-color: #f5f5f5;
+footer {
+    background: #000000;
+    background: #0f042a;
 }
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+
+@media screen and (min-width:768px) {
+    .brand /* sopra 768px */{
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: 'Signika', sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+	
+	.brand a{
+		color: #fff;
+	}
+	
+	.brand a:hover{
+		color :#eaeaea;
+		text-decoration: none;
+	}
+}
+
