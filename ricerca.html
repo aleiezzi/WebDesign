@@ -111,195 +111,131 @@
                     </li>
 <!-------------------------------------------  FINE MENU' DROPDOWN INFO  ------------------------------------------->	
 					
-					<li >
-                        <a href="registrati.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati</span></a>
+					<li class="hidden-lg hidden-md hidden-sm">
+						<a href="registrati.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  Registrati</a>
+					</li>
+					<li class="hidden-lg hidden-md hidden-sm">
+						<a href="accedi.html"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>  Accedi</a>
 					</li>
 					<li>
-						<a href="accedi.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"><span class="hidden-lg hidden-md hidden-sm"> carrello</span></a>
-					</li>
-					<li>
-                        <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
+                        <a href="search.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
                     </li>
                 </ul>
             </div>
         </div>
         </nav>
-        <br>
-        <br>
+        
 <!-- /Navigation -->
 
+    
         
-  <div class="container">
-        <div class="row">
-          
-                      
-        
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div id="myCarousel" class="carousel slide">
-            <!-- indicatori -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-            </ol>
-
-            <div class="carousel-inner">
-                <div class="item">
-                    <img src="immagini_carousel/2880x1619-FT_bottom.jpg" alt="Welcome">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Carousel</h1>
-                            <p>Questo è un testo di paragrafo, Prova a cambiarmi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item active">
-                    <img src="immagini_carousel/coffee-cherries_2048x@2x.jpg" alt="Second slide">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>CULO</h1>
-                            <p>Attenzione a quanto scrivi come titolo! Potrebbe non piacerti il risultato. Prova!!</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-    </div>
-  <!-- Controls -->
-      <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-                    
-                    
+  
 
                     
 
-                    </div>
+                  
                                
                       
   <br>
     <br>
       <br>
 
-<section id="ilTuoID" class="visible">
-
-    <div class="container">
+      
+      
+      
+      
+      
+      
+       
+      <div class="container">
         <div class="row">
             <div class="box">
-            <div class="col-sm-12 text-center">
-                <h2 class="section-heading">I più amati! </h2>
-                <h3 class="section-subheading text-primary">Articoli più acquistati dai nostri clienti</h3>
+			<!---- BREADCRUBMBS ----->
+			<ol class="breadcrumb hidden-print">
+				<li><a href="index.html">Home</a></li>
+				<li class="active">Ricerca</li>
+			</ol>
+			<div class="row padding30">
+
+				<!---- BARRA DI RICERCA ----->
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2">
+                        <div class="input-group">
+                            <div class="input-group-btn search-panel">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span id="search_concept">Cerca in</span> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#contains">Esplora le Città</a></li>
+                                  <li><a href="#greather_than">Blog</a></li>
+                                  <li><a href="#less_than">Info e Contatti</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#all">Tutto il Sito</a></li>
+                                </ul>
+                            </div>
+                            <input type="hidden" name="search_param" value="all" id="search_param">         
+                            <input type="text" class="form-control" name="x" placeholder="Cerca...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </div>
+                    </div>
+				</div>
+				<hr>
+				
+<!------------------------------------------- RISULTATI RICERCA ------------------------------------------->
+				
+                 <hgroup class="mb20">
+                    <h1>Risultati Ricerca</h1>
+                    <h2 class="lead">Sono stati trovati <strong class="text-danger">2</strong> risultati per <strong class="text-danger">Civita di Bagnoregio</strong> in <strong class="text-danger">BLOG</strong> </h2>								
+                </hgroup>
+
+                <section class="col-xs-12 col-sm-12 col-md-12">
+                    <article class="search-result row">
+                        <div class="col-xs-12 col-sm-12 col-md-3">
+                            <a href="#" title="Lorem ipsum" class="thumbnail"><img src="img/cittaeattivita/cortedellamaesta.jpg" alt="Lorem ipsum" /></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2">
+                            <ul class="meta-search">
+                                <li><i class="glyphicon glyphicon-calendar"></i> <span>15/12/2014</span></li>
+                                <li><i class="glyphicon glyphicon-time"></i> <span>16:28 </span></li>
+                                <li><i class="glyphicon glyphicon-tags"></i> <span>Civita di Bagnoregio, <i class="glyphicon glyphicon-tags"></i> <span>Alloggiare</span></span></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+                            <h3><a href="articles/articolo1.html" title="">Alloggia a "Corte della Maestà"!</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>
+                        </div>
+                        <span class="clearfix borda"></span>
+                    </article>
+
+                    <article class="search-result row">
+                        <div class="col-xs-12 col-sm-12 col-md-3">
+                            <a href="articles/articolo2.html" title="Lorem ipsum" class="thumbnail"><img src="img/cittaeattivita/paninigigia.jpg" alt="Lorem ipsum" /></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2">
+                            <ul class="meta-search">
+                                <li><i class="glyphicon glyphicon-calendar"></i> <span>13/01/2015</span></li>
+                                <li><i class="glyphicon glyphicon-time"></i> <span>8:32 </span></li>
+                                <li><i class="glyphicon glyphicon-tags"></i> <span>Civita Di Bagnoregio, </span><i class="glyphicon glyphicon-tags"></i> <span>Mangiare, </span><i class="glyphicon glyphicon-tags"></i> <span>Ristoranti</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-7">
+                            <h3><a href="articles/articolo2.html" title="">I panini della Gigia e molto altro!</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>				
+                            
+                        </div>
+                        <span class="clearfix borda"></span>
+                    </article>	
+                </section>    
             </div>
-       
-    <div class="row text-center">
-
-        <div class="col-sm-4">
-        <section id="services" class="hidden-xs">
-            <img class="img-circle responsive" src="img/grey_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
-            </section>
-            <h2>Circle</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
+		</div>
         </div>
-        <div class="col-sm-4">
-            <section id="services" class="hidden-xs">
-            <img class="img-square responsive" src="img/green_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
-            </section>
-            <h2>Thumbnail</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
-        </div>
-        <div class="col-sm-4">
-            <section id="services" class="hidden-xs">
-            <img class="img-square2 responsive" src="img/blue_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
-            </section>
-            <h2>Rounded</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
-        </div>
-
     </div>
-</div>
-             </div>
-        </div>
-</section>
- 
+      
+      
 
 
-
-
-<br>
-<br>
-<br>
-
-
-
-
-
-         <!-- Featurettes -->
-       
-            <div class="container featurette">
-                    <div class="row">
-                        <div class="box">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Lorem ipsum sezione</h2>
-                            <h3 class="section-subheading text-muted">Vogliamo accedere a questa sezione anche attraverso il link della nav-bar.</h3>
-                        </div>
-                    
-                    <div class="row featurette">
-                        <div class="row">
-                        <div class="col-sm-7 text-center">
-                            <h2 class="featurette-heading"><em>Testo della figurete</em></h2>
-                            <p class="lead">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?                     <br><br>
-                                <a class="btn btn-default" href="#" role="button">See for yourself</a></p>
-                        </div></div>
-                        <div class="row text-center">
-                        <div class="col-sm-12 hidden-xs">
-                            <img class="featurette-image  img-centered" alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
-                        </div></div>
-                    </div>
-                    <hr class="featurette-divider">
-
-                    <div class="row featurette">
-                        <div class="col-sm-5 hidden-xs">
-                            <img class="featurette-image  img-centered img-circle"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
-                        </div>
-                        <div class="col-sm-7">
-                            <h2 class="featurette-heading">Cambiamo il testo <span class="text-danger">questo è danger! </span></h2>
-                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">See for yourself</a></p>
-                        </div>
-
-                    </div>
-                       <hr class="featurette-divider">
-
-                     <div class="row featurette">
-
-                        <div class="col-sm-7">
-                            <h2 class="featurette-heading">Cambiamo il testo <span class="text-success">questo è success! </span></h2>
-                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">See for yourself</a></p>
-                        </div>
-                         <div class="col-sm-5 hidden-xs">
-                            <img class="featurette-image  img-centered img-rounded"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
-                        </div>
-                    </div>
-                </div>
-                </div>
-        </div>
- </div>
 
         
    <br>
