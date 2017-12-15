@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/woman-fair-trade.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -16,7 +16,9 @@ body {
     background-color: black;!important
 }
 
-
+.navbar-fixed-top{
+	display: none;
+}
 
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus,
@@ -26,14 +28,28 @@ body {
 }  
 
 footer {
-    background: #000000;
-    background: #0f042a;
+    background: #b5afaf;
+   
 }
 
 footer p {
     margin: 0;
     padding: 50px 0;
+    color: black;
 }
+
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    
+    
+ 
+ 
+}
+
 
 
 @media screen and (min-width:768px) {
@@ -58,5 +74,64 @@ footer p {
 		color :#eaeaea;
 		text-decoration: none;
 	}
+    
+    
+     
+
+
+    .navbar-header /* sopra 768px */{
+        display: none;
+    }
+
+    
+
+    .navbar-default, .navbar-fixed-top /* sopra 768px */{
+        border: none;
+        /*background-color: rgba(255,255,255,0.9);*/
+		display: block;
+    }
+	
+	a .nav /* sopra 768px */{
+		/*color: #777;*/
+		font-size: 2%;
+	}
+
+    .navbar-nav /* sopra 768px */{
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+    }
+	
+	.nav > li > a /* sopra 768px */{
+		/*color: #777;*/
+		/*background-color: rgba(255,255,255,0.5);*/
+		padding: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.nav > li > a:hover, .nav > li > a:focus /* sopra 768px */{
+	  /*background-color: transparent;*/
+	}
+	
+	.nav > li > a:hover /* sopra 768px */  {
+		 color: black;
+	 }
+
+	.respActivity  /* sopra 768px */  {
+		width: 90%;
+	}
+}
+
+@media screen and (min-width:1200px) /* sopra 1200px */ {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+	
+
 }
 
