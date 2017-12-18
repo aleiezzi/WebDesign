@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Tag META -->
-        <title>Tutorato Web Design</title>
+        <title>EquoCommerce</title>
         <meta name="description" content="Descrizione della pagina">
         <meta name="alessio" content="alesiso iezzi">
 
@@ -17,6 +17,15 @@
          <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/custom.css" rel="stylesheet">
+         
+         
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
 
 <!-- Font Aggiuntivi -->
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -28,6 +37,14 @@
     <body>
         <!-- Inserite qui i contenuti della pagina web -->
 
+        <div class="row box logButton hidden-xs hidden-print">
+			   <a href="registrati.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
+					
+                <a href="accedi.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm"> carrello  </span></a>
+					
+                <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
+	   </div>
+        
         <div class="hidden-xs">
             <div class="brand"><a href="index.html">EquoCommerce</a></div>
         </div>
@@ -51,7 +68,7 @@
 			};
 		</script>
 		
-          <div class="container hidden-print">
+          <div class="container">
 			
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -110,48 +127,35 @@
                         </ul>
                     </li>
 <!-------------------------------------------  FINE MENU' DROPDOWN INFO  ------------------------------------------->	
-					
-					<li >
-                        <a href="registrati.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati</span></a>
-					</li>
-					<li>
-						<a href="accedi.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"><span class="hidden-lg hidden-md hidden-sm"> carrello</span></a>
-					</li>
-					<li>
-                        <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
-                    </li>
+				
                 </ul>
             </div>
         </div>
         </nav>
-        <br>
-        <br>
+      
 <!-- /Navigation -->
 
         
-  <div class="container">
-        <div class="row">
-          
+ 
+      
                       
         
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  <ol class="carousel-indicators hidden-xs">
+      <li data-target="#carousel-example-generic" data-slide-to="0" ></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2" ></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div id="myCarousel" class="carousel slide">
             <!-- indicatori -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-            </ol>
+            
 
             <div class="carousel-inner">
                 <div class="item">
-                    <img src="immagini_carousel/2880x1619-FT_bottom.jpg" alt="Welcome">
+                    <img src="immagini_carousel/Robbos%20closeup%20(13).jfif" alt="Welcome">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Carousel</h1>
@@ -160,10 +164,19 @@
                     </div>
                 </div>
                 <div class="item active">
+                    <img src="immagini_carousel/chicchi-di-caffe-160634.jpg" alt="Welcome">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Carousel</h1>
+                            <p>Questo è un testo di paragrafo, Prova a cambiarmi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
                     <img src="immagini_carousel/coffee-cherries_2048x@2x.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>CULO</h1>
+                            <h1>titolo</h1>
                             <p>Attenzione a quanto scrivi come titolo! Potrebbe non piacerti il risultato. Prova!!</p>
                         </div>
                     </div>
@@ -172,7 +185,6 @@
             </div>
     </div>
   <!-- Controls -->
-      <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -188,8 +200,8 @@
 
                     
 
-                    </div>
-                               
+                   
+<div class="container">                       
                       
   <br>
     <br>
@@ -207,25 +219,33 @@
        
     <div class="row text-center">
 
-        <div class="col-sm-4">
+        <div class="col-sm-3">
         <section id="services" class="hidden-xs">
-            <img class="img-circle responsive" src="img/grey_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
             </section>
             <h2>Circle</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <section id="services" class="hidden-xs">
-            <img class="img-square responsive" src="img/green_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
             </section>
             <h2>Thumbnail</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
+        <section id="services" class="hidden-xs">
+            <img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            </section>
+            <h2>Circle</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="#" role="button">Maiores alias</a></p>
+        </div>
+        <div class="col-sm-3">
             <section id="services" class="hidden-xs">
-            <img class="img-square2 responsive" src="img/blue_150x150.png" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <img class="img-square2 responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
             </section>
             <h2>Rounded</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -255,23 +275,20 @@
             <div class="container featurette">
                     <div class="row">
                         <div class="box">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Lorem ipsum sezione</h2>
-                            <h3 class="section-subheading text-muted">Vogliamo accedere a questa sezione anche attraverso il link della nav-bar.</h3>
+                        <hr class="featurette-divider">
+
+                     <div class="row featurette">
+
+                        <div class="col-sm-7">
+                            <h2 class="featurette-heading">ULTIME NOTIZIE </h2>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
                         </div>
-                    
-                    <div class="row featurette">
-                        <div class="row">
-                        <div class="col-sm-7 text-center">
-                            <h2 class="featurette-heading"><em>Testo della figurete</em></h2>
-                            <p class="lead">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?                     <br><br>
-                                <a class="btn btn-default" href="#" role="button">See for yourself</a></p>
-                        </div></div>
-                        <div class="row text-center">
-                        <div class="col-sm-12 hidden-xs">
-                            <img class="featurette-image  img-centered" alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
-                        </div></div>
+                         <div class="col-sm-5 hidden-xs">
+                            <img class="featurette-image  img-centered img-rounded"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
+                        </div>
                     </div>
+                       
+                        
                     <hr class="featurette-divider">
 
                     <div class="row featurette">
@@ -280,7 +297,7 @@
                         </div>
                         <div class="col-sm-7">
                             <h2 class="featurette-heading">Cambiamo il testo <span class="text-danger">questo è danger! </span></h2>
-                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">See for yourself</a></p>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
                         </div>
 
                     </div>
@@ -289,8 +306,8 @@
                      <div class="row featurette">
 
                         <div class="col-sm-7">
-                            <h2 class="featurette-heading">Cambiamo il testo <span class="text-success">questo è success! </span></h2>
-                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">See for yourself</a></p>
+                            <h2 class="featurette-heading">ULTIME NOTIZIE BLOG</h2>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
                         </div>
                          <div class="col-sm-5 hidden-xs">
                             <img class="featurette-image  img-centered img-rounded"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
@@ -315,9 +332,9 @@
 					
 						<ul class="list-unstyled text-left">
                             <li><h4>Nel sito:</h4></li>
-                            <li>Meta del Mese Scorso: <a href="metaMese.html#bergen">Bergen</a></li>
-							<li>Ultimo Articolo: <a href="articles/articolo1.html">Corte della Maestà</a></li>
-							<li>Scelto dalla Redazione: <a href="cities/mangiareCivita.html">Mangiare a Civita</a></li>
+                            <li>Prodotti più ventuti : <a href="prodotti.html">My Bakery</a></li>
+							<li>Ultimo Articolo del blog : <a href="articles/articoloBlog.html">Corte della Maestà</a></li>
+							<li>Eventi più ricercati : <a href="cities/eventi.html">raduno equo solidale</a></li>
 						</ul>
 					
                 </div>
@@ -350,7 +367,7 @@
 					
 					
 						<ul class="list-unstyled text-left">
-                            <li><h4><a href="indiceAnalitico.html">Indice del sito</a></h4></li>
+                            <li><h4><a href="indiceAnalitico.html">Mappa del sito</a></h4></li>
 						</ul>
 					
                 </div>
@@ -362,8 +379,7 @@
                                 <button type="submit" class="btn btn-default socialButton"><i class="fa fa-twitter"></i></button>  
                                 
                                 <button type="submit" class="btn btn-default socialButton"><i class="fa fa-pinterest"></i></button>
-                            
-                                <button type="submit" class="btn btn-default socialButton"><i class="fa fa-flickr"></i></button>						
+                            					
                                 						
                                 <button type="submit" class="btn btn-default socialButton"><i class="fa fa-instagram"></i></button>
                              </li> 

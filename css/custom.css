@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/woman-fair-trade.jpg') no-repeat center center fixed;
+    background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -44,15 +44,36 @@ footer p {
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    margin-right: auto;
+	margin-left: auto;
     
     
  
  
 }
 
-.glyphicon glyphicon-shopping-cart{
-    font-size: 5em;
+
+.socialButton {
+	width: 45px;
+	height: 35px;
+	margin-bottom: 5px;
 }
+
+.logButton {
+	margin-top: 40px;
+	position: absolute;
+	right: 0;
+	margin-right: 1cm;
+	margin-left: auto;
+	padding: 15px 15px 15px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+    
+
+}
+
+
 
 @media screen and (min-width:768px) {
     .brand /* sopra 768px */{
@@ -109,8 +130,8 @@ footer p {
 		/*color: #777;*/
 		/*background-color: rgba(255,255,255,0.5);*/
 		padding: 20px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	
 	.nav > li > a:hover, .nav > li > a:focus /* sopra 768px */{
