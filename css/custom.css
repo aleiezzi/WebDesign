@@ -47,9 +47,7 @@ footer p {
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
-    margin-right: auto;
-	margin-left: auto;
-    
+   
     
  
  
@@ -130,8 +128,8 @@ footer p {
     }
 	
 	.nav > li > a /* sopra 768px */{
-		/*color: #777;*/
-		/*background-color: rgba(255,255,255,0.5);*/
+		color: #777;*/
+		background-color: rgba(255,255,255,0.5);*/
 		padding: 20px;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -142,7 +140,7 @@ footer p {
 	}
 	
 	.nav > li > a:hover /* sopra 768px */  {
-		 color: black;
+		 /*color: black;*/
 	 }
 
 	.respActivity  /* sopra 768px */  {

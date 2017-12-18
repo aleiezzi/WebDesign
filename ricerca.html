@@ -14,14 +14,24 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">-->
 
-         <!-- Bootstrap Core CSS -->
+              <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/custom.css" rel="stylesheet">
+         
+         
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
 
 <!-- Font Aggiuntivi -->
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
            <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
 
 
     </head>
@@ -32,7 +42,7 @@
             <div class="brand"><a href="index.html">EquoCommerce</a></div>
         </div>
         
-       <!-- Navigation -->
+        <!--------------------------------- Navigation --------------------------------->
        
        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
            <!--<nav class="navbar navbar-default hidden-print" role="navigation">-->
@@ -51,7 +61,7 @@
 			};
 		</script>
 		
-          <div class="container hidden-print">
+          <div class="container">
 			
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -73,59 +83,256 @@
            
             	<ul class="nav navbar-nav allineamento">
                    
-                    
-                    <li>
-                        <a href="metaMese.html"><span class="glyphicon glyphicon-star hidden-lg hidden-md hidden-sm" aria-hidden="true"></span> Chi Siamo</a>
+    <!------------------------------------------CHI SIAMO ----------------------------------------------->                
+                    <li class="dropdown">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    Chi siamo <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                           <li >
+                            <a href="#">Chi siamo</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">La nostra storia</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Cos'è il commercio equo solidale</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Dove operiamo?</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">L'impatto del nostro lavoro</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Cosa puoi trovare?</a></li>
+                        </ul>
+                        
+                        
                     </li>
-                    <li>
-                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Prodotti</a>
+     <!------------------------------------------PRODOTTI ----------------------------------------------->               
+                 <li class="dropdown">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    Prodotti <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                            
+                            <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Alimenti</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="zucchero.html">Zucchero</a></li>
+                                    <li class="divider"></li>
+                                <li><a href="#">Cioccolato</a></li>
+                                    <li class="divider"></li>
+                                <li><a href="#">Snack salati</a></li>
+                                    <li class="divider"></li>
+                                <li><a href="#">Snack dolci</a></li>
+                               
+                              
+                                </ul>
+                            </li> 
+                             <li class="divider"></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="cities/civitaDiBagnoregio.html">Bevande</a>
+                                <ul class="dropdown-menu">
+                                <li><a href="#">Succhi</a></li><li class="divider"></li>
+                                <li><a href="#">Vino</a></li><li class="divider"></li>
+                                <li><a href="#">Attività</a></li><li class="divider"></li>
+                                <li><a href="#">Info Pratiche</a></li><li class="divider"></li>
+                                <li class="divider"></li>
+                                <li><a href="cities/civitaDiBagnoregio.html">Visualizza tutte</a></li>
+                                </ul>
+                            </li> 
+                             <li class="divider"></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Tè e infusi</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Tè</a></li><li class="divider"></li>
+                                <li><a href="#">Tisane</a></li>
+                                
+                                </ul>
+                            </li> 
+                             <li class="divider"></li>
+                            
+                             <li><a href="prodotti.html">Caffè</a></li> 
+                            <li class="divider"></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Cosmesi</a>
+                                <ul class="dropdown-menu"><li><a href="#">Trucchi</a></li><li class="divider"></li>
+                                <li><a href="#">Profumi</a></li><li class="divider"></li>
+                                <li><a href="#">Corpo</a></li><li class="divider"></li>
+                                <li><a href="#">Capelli</a></li>
+                               
+                                </ul>
+                            </li> 
+                             <li class="divider"></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Moda</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Vestiti</a></li><li class="divider"></li>
+                                <li><a href="#">Pantaloni</a></li><li class="divider"></li>
+                                <li><a href="#">Scarpe</a></li><li class="divider"></li>
+                                <li><a href="#">Accessori</a></li><li class="divider"></li>
+                                <li><a href="#">Bijoux</a></li>
+                             
+                                </ul>
+                            </li>   
+                             <li class="divider"></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Oggetti per la casa</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Tessuti</a></li><li class="divider"></li>
+                                <li><a href="#">Bomboniere</a></li><li class="divider"></li>
+                                <li><a href="#">Cartoleria</a></li>
+                                
+                                </ul>
+                            </li>   
+                             <li class="divider"></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Spezie</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">sale</a></li><li class="divider"></li>
+                                <li><a tabindex="-1" href="#">Aromi</a></li>
+                                    </ul>
+                            </li>
+                            
+                                    
+                            
+                             <li class="divider"></li><li><a href="prodotti.html">Tutti i prodotti</a></li>
+                        </ul>
+                        
+                        
                     </li>
-                    <li>
-                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Produttori</a>
+                      
+        <!------------------------------------------PRODUTTORI ----------------------------------------------->           
+                    <li class="dropdown">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="produttori.html">
+                    produttori <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                           <li >
+                            <a href="#">Costa rica</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Colombia</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">India</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Sri Lanka</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Malawi</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Mali</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Ghana</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Perù</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Papua New Guinea</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Vietnam</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="produttori.html">Tutti i produttori</a></li>
+                        </ul>
+                        
+                        
                     </li>
-                    <li>
-                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  For Business</a>
+                      
+     <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
+                     <li class="dropdown">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    For Business <span class="caret"></span>
+                    </a>
+                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                           <li>
+                            <a href="#">Elenco licenziatari</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Elenco operatori flo-cert</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="#">Lavora per noi</a></li>
+                            
+                        </ul>
                     </li>
+         <!------------------------------------------NEWS EVENTI ----------------------------------------------->           
                     <li>
                         <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News/Eventi</a>
                     </li>
-                    <li>
-                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
+                    <!------------------------------------------BLOG ----------------------------------------------->
+                     <li class="dropdown">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    Blog <span class="caret"></span>
+                    </a>
+                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                           <li>
+                            <a href="blog.html">Elenco articoli</a></li>
+                            
+                            
+                        </ul>
                     </li>
-                    
-                    <li>
-                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Area Riservata</a>
+           <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
+                     <li class="dropdown">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    Area Riservata <span class="caret"></span>
+                    </a>
+                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                           <li>
+                            <a href="profilo.html">Profilo</a></li>
+                            <li class="divider"></li> 
+                            <li><a href="registrati.html">Registrazione</a></li>
+                           
+                            
+                        </ul>
                     </li>
 <!------------------------------------------- MENU' DROPDOWN INFO  ------------------------------------------->	                    
 					<li class="dropdown">
-                        <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
-                           <span class="glyphicon glyphicon-info-sign hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Info e Contatti <span class="caret"> </span>
-                        </a>
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    Info &amp; contatti <span class="caret"></span>
+                    </a>
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li class="dropdown-submenu">
-                            <a tabindex="-1" href="infoContatti.html">Informazioni</a>
-                            </li>
-                            <li class="divider"></li> 
-                            <li><a href="infoContatti.html#contatti">Contatti</a></li>
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Customer care</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Tempi di spedizione</a></li><li class="divider"></li>
+                                <li><a href="#">Metodi di pagamento</a></li><li class="divider"></li>
+                                <li><a href="#">Resi e rimborsi</a></li>
+                               
+                               
+                              
+                                </ul>
+                            </li> 
+                            <li class="divider"></li>
+                            
+                            
+                             <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Area legale</a>
+                                <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Condizioni di vendita</a></li><li class="divider"></li>
+                                 <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
+                                <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
+                                <li><a href="#">Cookies</a></li><li class="divider"></li>
+                                <li class="divider"></li>
+                                <li><a href="indice.html">Indice del sito</a></li>
+                               
+                              
+                                </ul>
+                            </li> 
+                            
+                            
+                            
+                             <li class="divider"></li><li><a href="prodotti.html">Contatti</a></li>
                         </ul>
+                        
+                        
                     </li>
 <!-------------------------------------------  FINE MENU' DROPDOWN INFO  ------------------------------------------->	
-					
-					<li class="hidden-lg hidden-md hidden-sm">
-						<a href="registrati.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  Registrati</a>
-					</li>
-					<li class="hidden-lg hidden-md hidden-sm">
-						<a href="accedi.html"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>  Accedi</a>
-					</li>
-					<li>
-                        <a href="search.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
-                    </li>
+				
                 </ul>
             </div>
         </div>
         </nav>
-        
-<!-- /Navigation -->
+      
+<!--------------------------------- /FINE Navigation --------------------------------->
 
     
         
@@ -244,16 +451,16 @@
         <br>
         <br>
         
-  <footer>
+<footer>
         <div class="container hidden-print">
             <div class="row paddingTop">
                 <div class="col-sm-3 col-sm-offset-1 text-center">
 					
 						<ul class="list-unstyled text-left">
                             <li><h4>Nel sito:</h4></li>
-                            <li>Meta del Mese Scorso: <a href="metaMese.html#bergen">Bergen</a></li>
-							<li>Ultimo Articolo: <a href="articles/articolo1.html">Corte della Maestà</a></li>
-							<li>Scelto dalla Redazione: <a href="cities/mangiareCivita.html">Mangiare a Civita</a></li>
+                            <li>Prodotti più ventuti : <a href="prodotti.html">My Bakery</a></li>
+							<li>Ultimo Articolo del blog : <a href="articles/articoloBlog.html">Corte della Maestà</a></li>
+							<li>Eventi più ricercati : <a href="cities/eventi.html">raduno equo solidale</a></li>
 						</ul>
 					
                 </div>
@@ -298,8 +505,7 @@
                                 <button type="submit" class="btn btn-default socialButton"><i class="fa fa-twitter"></i></button>  
                                 
                                 <button type="submit" class="btn btn-default socialButton"><i class="fa fa-pinterest"></i></button>
-                            
-                                <button type="submit" class="btn btn-default socialButton"><i class="fa fa-flickr"></i></button>						
+                            					
                                 						
                                 <button type="submit" class="btn btn-default socialButton"><i class="fa fa-instagram"></i></button>
                              </li> 
@@ -310,6 +516,7 @@
             </div>
         </div>
     </footer>
+
 
 
 
