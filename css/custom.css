@@ -10,7 +10,7 @@ body {
 
 .navbar li a {
     text-transform: uppercase;!important
-    font-weight: 500;!important
+    
     letter-spacing: 1px;!important
     color: #ffffff;!important
     background-color: black;!important
@@ -28,14 +28,22 @@ body {
 }  
 
 footer {
-    background: #ffffff;
-   
+    background: #fff;
+    background: rgba(255,255,255,0.9);
 }
 
 footer p {
     margin: 0;
     padding: 50px 0;
     color: black;
+}
+
+.sottomenu {
+    margin-left: 40px;
+}
+
+.sottomenu2 {
+    margin-left: 80px;
 }
 
 .allineamento{
@@ -48,9 +56,7 @@ footer p {
     background: #fff;
     background: rgba(255,255,255,0.9);
    
-    
- 
- 
+
 }
 
 form{
@@ -139,19 +145,19 @@ form{
     }
 	
 	.nav > li > a /* sopra 768px */{
-		color: #777;*/
-		background-color: rgba(255,255,255,0.5);*/
+		/*color: #000000;*/
+		/*background-color: rgba(255,255,255,0.5);*/
 		padding: 20px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
 	
 	.nav > li > a:hover, .nav > li > a:focus /* sopra 768px */{
-	  /*background-color: transparent;*/
+	  background-color: transparent;
 	}
 	
 	.nav > li > a:hover /* sopra 768px */  {
-		 /*color: black;*/
+		 color: grey;
 	 }
 
 	.respActivity  /* sopra 768px */  {

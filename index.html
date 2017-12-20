@@ -38,16 +38,19 @@
         <!-- Inserite qui i contenuti della pagina web -->
 
         <div class="row box logButton hidden-xs hidden-print">
-			   <a href="accedi.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
+			   <h4><a href="accedi.html"><span class="glyphicon glyphicon-user" aria-hidden="true" ></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
 					
                 <a href="carrello.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm"> carrello  </span></a>
 					
-                <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
+                   <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a></h4>
 	   </div>
+        
         
         <div class="hidden-xs">
             <div class="brand"><a href="index.html">EquoCommerce</a></div>
+             <br>
         </div>
+       
         
        <!--------------------------------- Navigation --------------------------------->
        
@@ -262,19 +265,11 @@
                     </li>
          <!------------------------------------------NEWS EVENTI ----------------------------------------------->           
                     <li>
-                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News/Eventi</a>
+                        <a href="news.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News/Eventi</a>
                     </li>
                     <!------------------------------------------BLOG ----------------------------------------------->
-                     <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
-                    Blog <span class="caret"></span>
-                    </a>
-                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li>
-                            <a href="blog.html">Elenco articoli</a></li>
-                            
-                            
-                        </ul>
+                     <li>
+                        <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
                     </li>
            <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
                      <li class="dropdown">
@@ -361,7 +356,8 @@
 
             <div class="carousel-inner">
                 <div class="item">
-                    <img src="immagini_carousel/coffee-fairtrade.jpg" alt="Welcome">
+                    <img class="hidden-xl hidden-lg hidden-md hidden-sm" src="immagini_carousel/coffee-fairtrade%20-%20Copia.jpg" alt="Welcome">
+                    <img class="hidden-xs "src="immagini_carousel/coffee-fairtrade.jpg" alt="Welcome">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Carousel</h1>
@@ -370,7 +366,8 @@
                     </div>
                 </div>
                 <div class="item active">
-                    <img src="immagini_carousel/FT_bottom.jpg" alt="Welcome">
+                     <img class="hidden-xl hidden-lg hidden-md hidden-sm" src="immagini_carousel/FT_bottom%20-%20Copia.jpg" alt="Welcome">
+                    <img class="hidden-xs "src="immagini_carousel/FT_bottom.jpg" alt="Welcome">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Carousel</h1>
@@ -379,7 +376,8 @@
                     </div>
                 </div>
                 <div class="item ">
-                    <img src="immagini_carousel/woman-fair-trade.jpg" alt="Second slide">
+                     <img class="hidden-xl hidden-lg hidden-md hidden-sm" src="immagini_carousel/woman-fair-trade%20-%20Copia.jpg" alt="Welcome">
+                    <img class="hidden-xs "src="immagini_carousel/woman-fair-trade.jpg" alt="Welcome">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>titolo</h1>
@@ -426,58 +424,91 @@
            
        
     <div class="row text-center ">
-
-        <div class="col-sm-4">
-        <section id="services" >
-            <img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+        
+        <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
+            <section id="services" >
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
             </section>
-            <h2>Circle</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Aggiungi al carrello</a></p>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+        </div> 
+        <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
+            <section id="services" >
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            </section>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+        </div> 
+        <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
+            <section id="services" >
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            </section>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+        </div> 
+        <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
+            <section id="services" >
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            </section>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+        </div> 
+
+        <div class="col-sm-4 hidden-sm ">
+        <section id="services" >
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            </section>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
         </div>
         
-        <div class="col-sm-4">
+        <div class="col-sm-4 hidden-sm ">
         <section id="services" >
-            <img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
             </section>
-            <h2>Circle</h2>
+            <h2>Prodotto 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 hidden-sm ">
             <section id="services" >
-            <img class="img-square2 responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
             </section>
-            <h2>Rounded</h2>
+            <h2>Prodotto 3</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
         </div>
          <div class="row text-center hidden-sm">
 
        
         <div class="col-sm-4 hidden-sm ">
             <section id="services" >
-            <img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
             </section>
-            <h2>Thumbnail</h2>
+            <h2>Prodotto 4</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
         </div>
         <div class="col-sm-4 hidden-sm ">
         <section id="services" >
-            <img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
             </section>
-            <h2>Circle</h2>
+            <h2>Prodotto 5</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
         </div>
         <div class="col-sm-4 hidden-sm ">
             <section id="services" >
-            <img class="img-square2 responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;">
+            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
             </section>
-            <h2>Rounded</h2>
+            <h2>Prodotto 6</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="#" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
         </div>
         
         
