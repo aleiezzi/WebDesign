@@ -27,6 +27,16 @@ body {
     color: #ffffff;
 }  
 
+
+ul#menu li{
+   display: inline;
+     float: left;
+    list-style: none;
+    padding: 5px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -36,6 +46,13 @@ footer p {
     margin: 0;
     padding: 50px 0;
     color: black;
+}
+
+#prodotti{
+     padding: 5px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .sottomenu {
@@ -66,7 +83,7 @@ form{
 }
 
 #news{
-    margin-left: 20px;;
+    margin-left: 20px;
     margin-right: 20px;
      
 }

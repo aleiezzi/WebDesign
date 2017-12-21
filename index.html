@@ -20,7 +20,7 @@
          
          
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
     <!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -100,7 +100,7 @@
                     </a>
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                            <li >
-                            <a href="#">Ci presentiamo</a></li>
+                            <a href="schermata_tipo.html">Ci presentiamo</a></li>
                             <li class="divider"></li> 
                             <li><a href="#">La nostra storia</a></li>
                             <li class="divider"></li> 
@@ -141,12 +141,8 @@
                              <li class="dropdown-submenu">
                             <a tabindex="-1" href="cities/civitaDiBagnoregio.html">Bevande</a>
                                 <ul class="dropdown-menu">
-                                <li><a href="#">Succhi</a></li><li class="divider"></li>
-                                <li><a href="#">Vino</a></li><li class="divider"></li>
-                                <li><a href="#">Attività</a></li><li class="divider"></li>
-                                <li><a href="#">Info Pratiche</a></li><li class="divider"></li>
-                                <li class="divider"></li>
-                                <li><a href="cities/civitaDiBagnoregio.html">Visualizza tutte</a></li>
+                                <li><a tabindex="-1" href="#">Succhi</a></li><li class="divider"></li>
+                                <li><a href="#">Vino</a></li>
                                 </ul>
                             </li> 
                              <li class="divider"></li>
@@ -272,22 +268,12 @@
                         <a href="blog.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
                     </li>
            <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
-                     <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
-                    Area Riservata <span class="caret"></span>
-                    </a>
-                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li>
-                            <a href="profilo.html">Profilo</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="registrati.html">Registrazione</a></li>
-                           
-                            
-                        </ul>
+                     <li>
+                        <a href="accedi.html"><span class="glyphicon glyphicon-list hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Area riservata</a>
                     </li>
 <!------------------------------------------- MENU' DROPDOWN INFO  e CONTATTI------------------------------------------->	                    
 					<li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
                     Info &amp; contatti <span class="caret"></span>
                     </a>
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -313,7 +299,6 @@
                                  <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
                                 <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
                                 <li><a href="#">Cookies</a></li><li class="divider"></li>
-                                <li class="divider"></li>
                                 <li><a href="indice.html">Indice del sito</a></li>
                                
                               
@@ -345,8 +330,8 @@
   <!-- Indicators -->
   <ol class="carousel-indicators hidden-xs">
       <li data-target="#carousel-example-generic" data-slide-to="0" ></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2" ></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2" class="active">></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -365,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item active">
+                <div class="item">
                      <img class="hidden-xl hidden-lg hidden-md hidden-sm" src="immagini_carousel/FT_bottom%20-%20Copia.jpg" alt="Welcome">
                     <img class="hidden-xs "src="immagini_carousel/FT_bottom.jpg" alt="Welcome">
                     <div class="container">
@@ -375,7 +360,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item ">
+                <div class="item active">
                      <img class="hidden-xl hidden-lg hidden-md hidden-sm" src="immagini_carousel/woman-fair-trade%20-%20Copia.jpg" alt="Welcome">
                     <img class="hidden-xs "src="immagini_carousel/woman-fair-trade.jpg" alt="Welcome">
                     <div class="container">
@@ -419,97 +404,126 @@
                  <div class="col-sm-12 text-center">
                 <h2 class="section-heading">I più amati! </h2>
                 <h3 class="section-subheading text-primary">Articoli più acquistati dai nostri clienti</h3>
+                     <br>
+                     <br>
             </div>
                
            
        
     <div class="row text-center ">
-        
+        <!-------tablet -------------->
         <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="prodotto.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 1</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="prodotto.html" role="button">Scopri di più</a></p><br><br>
         </div> 
         <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 2</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p><br><br>
         </div> 
+        <br>
         <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 3</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p><br><br>
         </div> 
         <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 4</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p><br><br>
         </div> 
-
-        <div class="col-sm-4 hidden-sm ">
-        <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+        <br>
+         <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
+            <section id="services" >
+            <a href="#"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 1</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p><br><br>
+        </div> 
+         <div class="col-sm-6 hidden-xl hidden-lg hidden-md hidden-xs ">
+            <section id="services" >
+            <a href="#"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
+            </section>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p>
+        </div> 
+        
+        <!------------->
+        <div class="col-sm-4 hidden-sm ">
+        <section id="services" >
+            <a href="zucchero.html"><img class="img-square responsive" src="img/prod1.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
+            </section>
+            <h2>Prodotto 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p><a class="btn btn-default" href="zucchero.html" role="button">Scopri di più</a></p>
+            <br>
+            <br>
         </div>
         
         <div class="col-sm-4 hidden-sm ">
         <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod2.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p>
+            <br>
+            <br>
         </div>
         <div class="col-sm-4 hidden-sm ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod3.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 3</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p>
+            <br>
+            <br>
         </div>
+        
          <div class="row text-center hidden-sm">
 
        
         <div class="col-sm-4 hidden-sm ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod4.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 4</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p>
         </div>
         <div class="col-sm-4 hidden-sm ">
         <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod5.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod5.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 5</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p>
         </div>
         <div class="col-sm-4 hidden-sm ">
             <section id="services" >
-            <a href="prodottoGenerale.html"><img class="img-square responsive" src="img/prod6.jpg" alt="Generic placeholder image" style="width: 150px; height: 150px;" ></a>
+            <a href="#"><img class="img-square responsive" src="img/prod6.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;" ></a>
             </section>
             <h2>Prodotto 6</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <p><a class="btn btn-default" href="carrello.html" role="button">Aggiungi al carrello</a></p>
+            <p><a class="btn btn-default" href="#" role="button">Scopri di più</a></p>
         </div>
+             <br>
         
         
 
@@ -539,7 +553,7 @@
            <!-- <div class="container featurette">-->
                     <div class="row">
                         <div class="box">
-                        <hr class="featurette-divider">
+                        
 
                      <div class="row featurette">
 
@@ -561,7 +575,7 @@
                         </div>
                         <div class="col-sm-7">
                             <h2 class="featurette-heading">news1 <span class="text-danger">questo è danger! </span></h2>
-                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="articolo_news.html" role="button">Per saperne di più</a></p>
                         </div>
 
                     </div>
@@ -571,7 +585,7 @@
 
                         <div class="col-sm-7">
                             <h2 class="featurette-heading">ArticoloBlog1</h2>
-                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+                            <p class="lead"> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <br><br><a class="btn btn-default" href="articolo.html" role="button">Per saperne di più</a></p>
                         </div>
                          <div class="col-sm-5">
                             <img class="featurette-image  img-centered img-rounded"  alt="300x300" data-src="holder.js/300x300/auto" style="width: 300px; height: 300px;" data-holder-rendered="true">
@@ -592,36 +606,24 @@
   <footer>
         <div class="container hidden-print">
             <div class="row paddingTop">
-                <div class="col-sm-3 col-sm-offset-1 text-center">
+                <div class="footer-navigation">
+                    <ul id="menu">
 					
-						<ul class="list-unstyled text-left">
-                            <li><h4>Nel sito:</h4></li>
-                            <li>Prodotti più ventuti : <a href="prodotti.html">My Bakery</a></li>
-							<li>Ultimo Articolo del blog : <a href="articles/articoloBlog.html">Corte della Maestà</a></li>
-							<li>Eventi più ricercati : <a href="cities/eventi.html">raduno equo solidale</a></li>
-						</ul>
+						<li><h4><a id="foot">Contatti </a></h4></li>
 					
-                </div>
-                <div class="col-sm-3 col-sm-offset-1 text-center">
+             
 					
-						<ul class="list-unstyled text-left">
-                            <li><h4>Servizi</h4></li>
-							<li><a href="profiloUtente.html">Il Tuo Profilo</a></li>
-							<li><a href="#">Shortcut</a></li>
-							<li><a href="#">Shortcut</a></li>
-						</ul>
+						<li><h4><a id="foot">Area legale </a></h4></li>
 					
-                </div>
-                <div class="col-sm-3 col-sm-offset-1 text-center">
-					
-						<ul class="list-unstyled text-left">
-                            <li><h4>About</h4></li>
-							<li><a href="#">Shortcut</a></li>
-							<li><a href="#">Shortcut</a></li>
-                            <li><a href="#">Shortcut</a></li>
-						</ul>
-					</div>
                 
+						<li><h4><a id="foot">Customer care </a></h4></li>
+					
+						<li><h4><a id="foot">Indice del sito </a></h4></li>
+					
+				    <li><h4><a id="foot">Area riservata</a></h4></li>
+					
+                    </ul>
+            </div>
             </div>
             
             <hr class="featurette-divider">
@@ -631,7 +633,7 @@
 					
 					
 						<ul class="list-unstyled text-left">
-                            <li><h4><a href="indiceAnalitico.html">Indice del sito</a></h4></li>
+                            <li><h4><a href="indiceAnalitico.html">copyright</a></h4></li>
 						</ul>
 					
                 </div>
