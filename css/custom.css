@@ -32,9 +32,9 @@ ul#menu li{
    display: inline;
      float: left;
     list-style: none;
-    padding: 5px 40px;
+   /* padding: 5px 40px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px;*/
 }
 
 footer {
