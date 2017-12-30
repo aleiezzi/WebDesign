@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
     background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,12 +9,20 @@ body {
 	font-size: 120%;
 }
 
+p{
+    font-family: 'Dosis', sans-serif;
+}
+
+
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+
 .navbar li a {
-    text-transform: uppercase;!important
+    text-transform: uppercase;
     
-    letter-spacing: 1px;!important
-    color: #ffffff;!important
-    background-color: black;!important
+    letter-spacing: 1px;
+  
 }
 
 .navbar-fixed-top{
@@ -38,14 +47,13 @@ ul#menu li{
 }
 
 footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #343434;
+    background: rgba(34,34,34,1);
 }
 
-footer p {
-    margin: 0;
-    padding: 50px 0;
-    color: black;
+footer h5 {
+   
+    color: white;
 }
 
 #prodotti{
