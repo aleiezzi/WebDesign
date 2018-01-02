@@ -11,23 +11,20 @@ body {
 
 p{
     font-family: 'Dosis', sans-serif;
-}
-/*
-#p1{
     font-size: 16px;
-}*/
+}
+
 
 h2,h1{
     font-family: 'Dosis', sans-serif;
 }
-
 #titolo{
-    font-family: 'Dosis', sans-serif;
+     font-family: 'Dosis', sans-serif;
     font-size: 20px;
 }
-
-.navbarli a {
+.navbar li a {
     text-transform: uppercase;
+    
     letter-spacing: 1px;
   
 }
@@ -45,8 +42,8 @@ h2,h1{
 
 
 ul#menu li{
-    display: inline;
-    float: left;
+   display: inline;
+     float: left;
     list-style: none;
    /* padding: 5px 40px;
     margin-left: 20px;
@@ -59,20 +56,16 @@ footer {
 }
 
 footer h5 {
+   
     color: white;
 }
 
 #prodotti{
-    padding: 5px 40px;
+     padding: 5px 40px;
     margin-left: 20px;
     margin-right: 20px;
     
 }
-/*
-.space{
-    padding-left: 15px;
-    padding-right: 15px;
-}*/
 
 .sottomenu {
     margin-left: 40px;
