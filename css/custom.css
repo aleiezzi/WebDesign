@@ -15,7 +15,13 @@ p{
 }
 
 
-h2,h1{
+.titoli{
+   font-family: 'Baloo Tamma', cursive;
+}
+
+
+
+h1{
     font-family: 'Dosis', sans-serif;
 }
 #titolo{
