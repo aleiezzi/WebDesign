@@ -110,6 +110,12 @@ form{
      
 }
 
+.pad{
+    margin-left: 20px;
+    margin-right: 20px;
+     
+}
+
 .socialButton {
 	width: 45px;
 	height: 35px;
@@ -214,6 +220,7 @@ form{
 	
 
 }
+
 
 
 
