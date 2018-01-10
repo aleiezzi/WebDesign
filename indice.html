@@ -9,29 +9,18 @@
         <meta name="description" content="Descrizione della pagina">
         <meta name="alessio" content="GHT2.0">
 
-        <!-- CSS -->
-        <!--<link href="css/custom.css" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">-->
-
-              <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
          
          
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-
-<!-- Font Aggiuntivi -->
-<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-           <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
 
 
@@ -39,24 +28,26 @@
     <body>
         <!-- Inserite qui i contenuti della pagina web -->
 
-        
         <div class="row box logButton hidden-xs hidden-print">
-			   <a href="registrati.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
+			   <h4><a href="accedi.html"><span class="glyphicon glyphicon-user" aria-hidden="true" ></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
 					
                 <a href="carrello.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm"> Carrello  </span></a>
 					
-                <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
+                   <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a></h4>
 	   </div>
+        
         
         <div class="hidden-xs">
             <div class="brand"><a href="index.html">EquoCommerce</a></div>
+             <br>
         </div>
+       
         
-       <!--------------------------------- Navigation --------------------------------->
+<!-------------------------------------- Navigation ---------------------------------------->
        
        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
            <!--<nav class="navbar navbar-default hidden-print" role="navigation">-->
-         <script type="text/javascript">
+        <script type="text/javascript">
 			document.onscroll = function() {
                  var winHeight = $(window).height();
                  var docHeight = $( document ).height();
@@ -71,7 +62,7 @@
 			};
 		</script>
 		
-          <div class="container">
+        <div class="container">
 			
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -81,21 +72,21 @@
                     <span class="icon-bar"></span>
                 </button>
 				
-<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
 				
                 <a class="navbar-brand" href="index.html">EquoCommerce</a>
             </div>
 			
-<!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
 			
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
            
             	<ul class="nav navbar-nav allineamento">
                    
-    <!------------------------------------------CHI SIAMO ----------------------------------------------->                
+            <!------------------------------------------CHI SIAMO ----------------------------------------------->                
                     <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
                     Chi siamo <span class="caret"></span>
                     </a>
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -115,7 +106,7 @@
                         
                         
                     </li>
-     <!------------------------------------------PRODOTTI ----------------------------------------------->               
+            <!------------------------------------------PRODOTTI ----------------------------------------------->               
                  <li class="dropdown">
                     <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
                     Prodotti <span class="caret"></span>
@@ -123,7 +114,7 @@
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                             
                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Alimenti</a>
+                            <a tabindex="-1" href="Alimenti.html">Alimenti</a>
                                 <ul class="dropdown-menu">
                                 <li><a tabindex="-1" href="zucchero.html">Zucchero</a></li>
                                     <li class="divider"></li>
@@ -139,7 +130,7 @@
                              <li class="divider"></li>
                             
                              <li class="dropdown-submenu">
-                            <a tabindex="-1" href="cities/civitaDiBagnoregio.html">Bevande</a>
+                            <a tabindex="-1" href="#">Bevande</a>
                                 <ul class="dropdown-menu">
                                 <li><a tabindex="-1" href="#">Succhi</a></li><li class="divider"></li>
                                 <li><a href="#">Vino</a></li>
@@ -157,7 +148,7 @@
                             </li> 
                              <li class="divider"></li>
                             
-                             <li><a href="prodotti.html">Caffè</a></li> 
+                             <li><a href="#">Caffè</a></li> 
                             <li class="divider"></li>
                             
                              <li class="dropdown-submenu">
@@ -211,9 +202,9 @@
                         
                     </li>
                       
-        <!------------------------------------------PRODUTTORI ----------------------------------------------->           
+            <!------------------------------------------PRODUTTORI ----------------------------------------------->           
                     <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="produttori.html">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
                     produttori <span class="caret"></span>
                     </a>
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -238,15 +229,15 @@
                             <li class="divider"></li> 
                             <li><a href="#">Vietnam</a></li>
                             <li class="divider"></li> 
-                            <li><a href="produttori.html">Tutti i produttori</a></li>
+                            <li><a href="#">Tutti i produttori</a></li>
                         </ul>
                         
                         
                     </li>
                       
-     <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
+            <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
                      <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
                     For Business <span class="caret"></span>
                     </a>
                          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -259,19 +250,19 @@
                             
                         </ul>
                     </li>
-         <!------------------------------------------NEWS e EVENTI ----------------------------------------------->           
+            <!------------------------------------------NEWS e EVENTI ----------------------------------------------->           
                     <li>
                         <a href="news.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News &amp; Eventi</a>
                     </li>
-                    <!------------------------------------------BLOG ----------------------------------------------->
+            <!------------------------------------------BLOG ----------------------------------------------->
                      <li>
                         <a href="blog.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
                     </li>
-           <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
+            <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
                      <li>
                         <a href="accedi.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Area riservata</a>
                     </li>
-<!------------------------------------------- MENU' DROPDOWN INFO  e CONTATTI------------------------------------------->	                    
+            <!-------------------------------------------INFO  e CONTATTI------------------------------------------->	                    
 					<li class="dropdown">
                     <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
                     Info &amp; contatti <span class="caret"></span>
@@ -284,39 +275,30 @@
                                 <li><a tabindex="-1" href="#">Tempi di spedizione</a></li><li class="divider"></li>
                                 <li><a href="#">Metodi di pagamento</a></li><li class="divider"></li>
                                 <li><a href="#">Resi e rimborsi</a></li>
-                               
-                               
-                              
                                 </ul>
                             </li> 
                             <li class="divider"></li>
                             
-                            
-                             <li class="dropdown-submenu">
+                            <li class="dropdown-submenu">
                             <a tabindex="-1" href="#">Area legale</a>
                                 <ul class="dropdown-menu">
                                 <li><a tabindex="-1" href="#">Condizioni di vendita</a></li><li class="divider"></li>
                                  <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
                                 <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
                                 <li><a href="#">Cookies</a></li>
-                               
-                              
                                 </ul>
                             </li> 
-                            
-                            
-                            
-                             <li class="divider"></li><li><a href="#">Contatti</a></li>
+                            <li class="divider"></li><li><a href="#">Contatti</a></li>
                         </ul>
                         
                         
                     </li>
-<!-------------------------------------------  FINE MENU' DROPDOWN INFO  ------------------------------------------->	
+                <!-------------------------------------------  FINE ------------------------------------------->	
 				
                 </ul>
             </div>
         </div>
-        </nav>
+    </nav>
       
 <!--------------------------------- /FINE Navigation --------------------------------->
 
@@ -330,167 +312,147 @@
             <section id="ilTuoID" class="visible">
                 <div class="row">
                     <div class="box">
-                         <div class="col-sm-12 text-left">
-                 <!---- BREADCRUMB ---->	                
-                <ol class="breadcrumb hidden-print">
-					<li><a href="index.html">Home</a></li>
-                    <li class="active">Indice del sito</li>
-				</ol>
+                        <div class="col-sm-12 text-left">
+                            <!---- BREADCRUMB ---->	                
+                            <ol class="breadcrumb hidden-print">
+					           <li><a href="index.html">Home</a></li>
+                                <li class="active">Indice del sito</li>
+				            </ol>
                         </div>
-                          <div class="row">
-                 <div class="col-sm-3 hidden-xs hidden-sm">
+                        <div class="row">
+                            <div class="col-sm-3 hidden-xs hidden-sm">
                      
-                          <!-- Menu di navigazione contestuale -->
+                            <!-- Menu di navigazione contestuale -->
                   
    
-                        <div class="navbar-contestuale">
-                            <ul class="navbar navbar-text nav">
-                                <li>
+                            <div class="navbar-contestuale">
+                                <ul class="navbar navbar-text nav">
+                                    <li>
                                     <a href="#" class="text-white navbar-testo">Chi siamo</a>
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     <a href="prodotti.html" class="text-white navbar-testo">Prodotti</a>
-                                </li>
-            
-                                <li>
+                                    </li>    
+                                    <li>
                                     <a href="produttori" class="text-white navbar-testo ">Produttori</a>
-                                </li>
+                                    </li>
             
-                                <li>
-                                    <a href="#" class="text-white navbar-testo">For Business</a>
-                                </li>
-                                <li>
-                                    <a href="news.html" class="text-white navbar-testo">News &amp; Eventi</a>
-                                </li>
-                                <li>
-                                    <a href="blog.html" class="text-white navbar-testo ">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-white navbar-testo ">Area Riservata</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-white navbar-testo ">info &amp; Contatti</a>
-                                </li>
-           
-
-                            </ul>
+                                    <li>
+                                        <a href="#" class="text-white navbar-testo">For Business</a>
+                                    </li>
+                                    <li>
+                                        <a href="news.html" class="text-white navbar-testo">News &amp; Eventi</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog.html" class="text-white navbar-testo ">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white navbar-testo ">Area Riservata</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white navbar-testo ">info &amp; Contatti</a>
+                                    </li>
+                                </ul>
        
-                        </div>           
-                     </div>                                       
+                            </div>           
+                            </div>                                       
               
-
-
-                 <div class="col-sm-9 ">
+                            <div class="col-sm-9 ">
                     
-        <div class="row">
+                                <div class="row">
             
-            <div class="col-sm-12 text-center">
-                <h2 class="titoli">INDICE ANALITICO DEL SITO</h2><br><br>
+                                    <div class="col-sm-12 text-center">
+                                        <h2 class="titoli">INDICE ANALITICO DEL SITO</h2><br><br>
                 
-            </div>
-            <div class="row">       
-                <div class="col-sm-12 text-center">
-                    <ul class="list-inline">
-                        <li><a href="indice.html#A" >A</a></li>
-                        <li><a href="indice.html#B">B</a></li>
-                        <li><a href="indice.html#C">C</a></li>
-                        <li>D</li>
-                        <li>E</li>
-                        <li>F</li>
-                        <li>G</li>
-                        <li><a href="indice.html#H">H</a></li>
-                        <li><a href="indice.html#I">I</a></li>
-                        <li>J</li>
-                        <li>K</li>
-                        <li>L</li>
-                        <li>M</li>
-                        <li><a href="indice.html#N">N</a></li>
-                        <li>O</li>
-                        <li><a href="indice.html#P">P</a></li>
-                        <li>Q</li>
-                        <li><a href="indice.html#R">R</a></li>
-                        <li>S</li>
-                        <li><a href="indice.html#T">T</a></li>
-                        <li>U</li>
-                        <li>V</li>
-                        <li>W</li>
-                        <li>X</li>
-                        <li>Y</li>
-                        <li><a href="indice.html#Z">Z</a></li
-                    </ul>
+                                    </div>
+                                    <div class="row">       
+                                        <div class="col-sm-12 text-center">
+                                            <ul class="list-inline">
+                                                <li><h4><a href="indice.html#A">A</a></h4></li>
+                                                <li><h4><a href="indice.html#B">B</a></h4></li>
+                                                <li><h4><a href="indice.html#C">C</a></h4></li>
+                                                <li><h4>D</h4></li>
+                                                <li><h4>E</h4></li>
+                                                <li><h4>F</h4></li>
+                                                <li><h4>G</h4></li>
+                                                <li><h4><a href="indice.html#H">H</a></h4></li>
+                                                <li><h4><a href="indice.html#I">I</a></h4></li>
+                                                <li><h4>J</h4></li>
+                                                <li><h4>K</h4></li>
+                                                <li><h4>L</h4></li>
+                                                <li><h4>M</h4></li>
+                                                <li><h4><a href="indice.html#N">N</a></h4></li>
+                                                <li><h4>O</h4></li>
+                                                <li><h4><a href="indice.html#P">P</a></h4></li>
+                                                <li><h4>Q</h4></li>
+                                                <li><h4><a href="indice.html#R">R</a></h4></li>
+                                                <li><h4>S</h4></li>
+                                                <li><h4><a href="indice.html#T">T</a></h4></li>
+                                                <li><h4>U</h4></li>
+                                                <li><h4>V</h4></li>
+                                                <li><h4>W</h4></li>
+                                                <li><h4>X</h4></li>
+                                                <li><h4>Y</h4></li>
+                                                <li><h4><a href="indice.html#Z">Z</a></h4></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row padding30">
+                                        <div class="col-sm-12 padding30">
+                                            <h2 id="A">A</h2>
+                                            <ul>
+                                                <li><a href="Alimenti.html">Alimenti</a></li>
+                                                <li><a href="accedi.html">Area Riservata</a></li>
+                                            </ul>
+                                            <h2 id="B">B</h2>
+                                            <ul>
+                                                <li><a href="blog.html">Blog</a></li>   
+                                            </ul>
+                                            <h2 id="C">C</h2>
+                                            <ul>
+                                                <li><a href="carrello.html">Carrello</a></li>
+                                                <li><a href="schermata_tipo.html">Ci presentiamo</a></li>
+                                                <li><a href="CostaRica.html">Costa Rica</a></li>
+                                            </ul>
+                                            <h2 id="H">H</h2>
+                                            <ul>
+                                                <li><a href="index.html">Home</a></li>   
+                                            </ul>
+                                            <h2 id="I">I</h2>
+                                            <ul>
+                                                <li><a href="indice.html">Indice del sito</a></li>
+                                            </ul>
+                                            <h2 id="N">N</h2>
+                                            <ul>
+                                                <li><a href="news.html">News &amp; Eventi</a></li>   
+                                            </ul>
+                                            <h2 id="P">P</h2>
+                                            <ul>
+                                                <li><a href="profilo.html">Profilo</a></li>    
+                                            </ul>
+                                            <h2 id="R">R</h2>
+                                            <ul>
+                                                <li><a href="registrati.html">Registrati</a></li>  
+                                                <li><a href="ricerca.html">Ricerca</a></li>
+                                            </ul>
+                                            <h2 id="P">T</h2>
+                                            <ul>
+                                                <li><a href="prodotti.html">Tutti i prodotti</a></li>    
+                                            </ul>
+                                            <h2 id="Z">Z</h2>
+                                            <ul>
+                                                <li><a href="zucchero.html">Zucchero</a></li>   
+                                            </ul>  
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
         </div>
-        <div class="row padding30">
-            <div class="col-sm-12 padding30">
-                <h2 id="A">A</h2>
-				    <ul>
-                        <li><a href="Alimenti.html">Alimenti</a></li>
-                        <li><a href="accedi.html">Area Riservata</a></li>
-                    </ul>
-                <h2 id="B">B</h2>
-				    <ul>
-                        <li><a href="blog.html">Blog</a></li>   
-                    </ul>
-                <h2 id="C">C</h2>
-				    <ul>
-                        <li><a href="carrello.html">Carrello</a></li>
-                        <li><a href="schermata_tipo.html">Ci presentiamo</a></li>
-                        <li><a href="CostaRica.html">Costa Rica</a></li>
-                    </ul>
-                <h2 id="H">H</h2>
-				    <ul>
-                        <li><a href="index.html">Home</a></li>   
-                    </ul>
-                <h2 id="I">I</h2>
-				    <ul>
-                        <li><a href="indice.html">Indice del sito</a></li>
-                    </ul>
-                <h2 id="N">N</h2>
-				    <ul>
-                        <li><a href="news.html">News &amp; Eventi</a></li>   
-                    </ul>
-                <h2 id="P">P</h2>
-				    <ul>
-                        <li><a href="profilo.html">Profilo</a></li>    
-                    </ul>
-                <h2 id="R">R</h2>
-				    <ul>
-                        <li><a href="registrati.html">Registrati</a></li>  
-                        <li><a href="ricerca.html">Ricerca</a></li>
-                    </ul>
-                <h2 id="P">P</h2>
-				    <ul>
-                        <li><a href="prodotti.html">Tutti i prodotti</a></li>    
-                    </ul>
-                <h2 id="Z">Z</h2>
-				    <ul>
-                        <li><a href="zucchero.html">Zucchero</a></li>   
-                    </ul>  
-            </div>    
-        </div>
-    
-
-            </div>
-                        </div>
-                
-                
-            
-                        </div>
-             </div>
-          </div>
-        </section>
         
-        
-         </div>
-        
-        
-        
-        
-   
-      
-      
-
-
 
         
     <br>
@@ -498,41 +460,27 @@
     <br>
     <br>
     <br>
-        
+<!-------------------------------------------FOOTER-------------------------------------------------->   
    <footer>
         <div class="container hidden-print">
             <div class="row paddingTop text-center">
                 <div class="footer-navigation text-center">
                    
                     <ul id="menu">
-					   
-						<li><h4><a id="foot">Contatti </a> | </h4></li>
-					
-             
-					
-						<li><h4><a id="foot">Area legale </a> | </h4></li>
-					
-                
-						<li><h4><a id="foot">Customer care </a> | </h4></li>
-					
-						<li><h4><a id="foot" href="indice.html">Indice del sito </a> | </h4></li>
-					
-				    <li><h4><a id="foot" href="profilo.html">Area riservata </a> </h4></li>
-					
-                    </ul>
-                       
+                        <li><h4><a href="#">Contatti </a> | </h4></li>
+						<li><h4><a href="#">Area legale </a> | </h4></li>
+						<li><h4><a href="#">Customer care </a> | </h4></li>
+						<li><h4><a href="indice.html">Indice del sito </a> | </h4></li>
+                        <li><h4><a href="accedi.html">Area riservata </a> </h4></li>
+                    </ul>    
+                </div>
             </div>
-            </div>
-            
             <hr class="featurette-divider">
-            
             <div class="row padding0">
                 <div class="col-sm-5 col-sm-offset-1 text-center">
-					
-					
-						<ul class="list-unstyled text-left">
-                            <li><h5>© Copyright 2018, GHT 2.0 </h5></li>
-						</ul>
+				    <ul class="list-unstyled text-left">
+                        <li><h5>© Copyright 2018, GHT 2.0 </h5></li>
+				    </ul>
 					
                 </div>
                 <div class="col-sm-5 col-sm-offset-1 text-center">
@@ -541,32 +489,18 @@
                             <li>
                                 <a href="http://www.facebook.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-facebook"></i></button></a>
                                 <a href="http://www.twitter.com"> <button type="submit" class="btn btn-default socialButton"><i class="fa fa-twitter"></i></button>  </a>
-                                
-                                <a href="http://www.pinterest.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-pinterest"></i></button></a>
-                            					
-                                						
+                                <a href="http://www.pinterest.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-pinterest"></i></button></a>					
                                 <a href="http://www.instagram.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-instagram"></i></button></a>
                              </li> 
                         </ul>
-                    
                 </div>
-                
             </div>
         </div>
     </footer>
 
-
-
-
-
-        <!-- Script -->
+    <!-- Script -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
-        <!-- jQuery -->
-
-         
-        <script src="imsky-holder-8220898/holder.js"></script>
-
 
 </body>
 </html>
