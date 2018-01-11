@@ -22,7 +22,6 @@ p{
 }
 
 
-
 h1{
     font-family: 'Dosis', sans-serif;
 }
@@ -34,7 +33,6 @@ h1{
 
 .navbar li a {
     text-transform: uppercase;
-    
     letter-spacing: 1px;
   
 }
@@ -107,13 +105,14 @@ form{
 #news{
     margin-left: 20px;
     margin-right: 20px;
+    
      
 }
 
 .pad{
     margin-left: 20px;
     margin-right: 20px;
-     
+    text-align: justify;
 }
 
 .pad2{
@@ -228,8 +227,6 @@ form{
 }
 
 
-
-
 /*=============================================== CSS PER DOPPIO MENU' DROPDOWN ===============================================*/
 
 .dropdown-submenu {
@@ -281,14 +278,6 @@ form{
 }
 
 
-/*=============================================== CSS PER MENU VERTICALE===============================================
-
-body{margin:50px;}
-#accordion .glyphicon { margin-right:10px; }
-.panel-collapse>.list-group .list-group-item:first-child {border-top-right-radius: 0;border-top-left-radius: 0;}
-.panel-collapse>.list-group .list-group-item {border-width: 1px 0;}
-.panel-collapse>.list-group {margin-bottom: 0;}
-.panel-collapse .list-group-item {border-radius:0;}*/
 
 /*=============================================== CSS PER RISULTATI RICERCA ===============================================*/
 
