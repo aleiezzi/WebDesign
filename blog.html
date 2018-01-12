@@ -7,7 +7,7 @@
         <!-- Tag META -->
         <title>Blog</title>
         <meta name="description" content="Descrizione della pagina">
-        <meta name="alessio" content="GHT2.0">
+        <meta name="GHT2.0" content="GHT2.0">
 
         <!-- CSS -->
         <!--<link href="css/custom.css" rel="stylesheet">
@@ -475,7 +475,7 @@
                              <h3><strong><a href="articolo.html">Il cacao sostenibile del Costa Rica</a></strong></h3>
                           </div>
                         </div>
-                        <div class="row text-justify">
+                        <div class="row">
                           <div class="col-sm-4">
                             <a href="articolo.html" class="thumbnail">
                                 <img src="img/Cocoa.jpg" alt="Cacao Costa Rica" style="width: 200px; height: 100px">
@@ -507,7 +507,7 @@
                             <h3><strong><a href="#">KENYA: i produttori di caffè tornano a scuola!</a></strong></h3>
                           </div>
                         </div>
-                        <div class="row text-justify">
+                        <div class="row">
                           <div class="col-sm-4">
                             <a href="#" class="thumbnail">
                                  <img src="img/Kenya_assemblea.jpg" alt="Kenya Scuola" style="width: 200px; height: 100px">
@@ -538,7 +538,7 @@
                             <h3><strong><a href="#">Più chiarezza nello standard del cacao</a></strong></h3>
                           </div>
                         </div>
-                        <div class="row text-justify">
+                        <div class="row">
                           <div class="col-sm-4">
                             <a href="#" class="thumbnail">
                                  <img src="img/cacao.jpg" alt="cacao" style="width: 200px; height: 100px">
@@ -564,18 +564,32 @@
                             </p>
                           </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-12">
-                            <ul class="pager">
-                                <li class="next"><a href="#">Articoli precedenti</a></li>
-                            </ul>
+                        <hr>
+                           <div class="row text-center">
+                               <div class="col-sm-12">
+                                    <a type="pager" href="#" class="btn btn-link">Carica articoli precedenti</a>
+                               </div>
                             </div>
-                        </div>
                     </div>
                     </div>
 				
 <!----------------------TAG CLOUD-------------------------->
                     <div class="col-sm-3 hidden-print">
+                        <br><br>
+                        <div class="row">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="primo" value="option1" checked>
+                                <label class="form-check-label" for="primo">
+                                        Ordina per data
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="secondo" value="option2">
+                                <label class="form-check-label" for="secondo">
+                                    Ordina per rilevanza
+                                </label>
+                            </div>
+                        </div>
                         <br><br>
                         <div id="htmltagcloud">
                             <span id="0" class="wrd tagcloud2"><a href="#tagcloud">Art  </a></span>
@@ -594,6 +608,7 @@
                             <span id="13" class="wrd tagcloud3"><a href="#tagcloud">World  </a></span>
                         </div>
                         <div id="credit">created at <a href="https://tagcrowd.com">TagCrowd.com</a></div>
+                
                     </div>
 
 
