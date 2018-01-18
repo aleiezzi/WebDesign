@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
-     <head>
+    <head>
         <!-- Viewport -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,34 +14,31 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">-->
               <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
-         
-         
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
 
-    <!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
     </head>
- <body>
+    <body>
         <!-- Inserite qui i contenuti della pagina web -->
 
         <div class="row box logButton hidden-xs hidden-print">
-			   <h4><a href="accedi.html"><span class="glyphicon glyphicon-user" aria-hidden="true" ></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
-					
-                <a href="carrello.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm"> Carrello  </span></a>
-					
-                   <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a></h4>
-	   </div>
-        
-        
+			<h4>
+               <a href="accedi.html"><span class="glyphicon glyphicon-user" aria-hidden="true" ></span > <span class="hidden-lg hidden-md hidden-sm"> Registrati  </span></a>
+               <a href="carrello.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm"> Carrello  </span></a>
+               <a href="ricerca.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-lg hidden-md hidden-sm">  Ricerca</span></a>
+            </h4>
+        </div>
         <div class="hidden-xs">
             <div class="brand"><a href="index.html">EquoCommerce</a></div>
-             <br>
+            <br>
         </div>
        
         
@@ -49,284 +46,276 @@
        
        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
            <!--<nav class="navbar navbar-default hidden-print" role="navigation">-->
-        <script type="text/javascript">
-			document.onscroll = function() {
-                 var winHeight = $(window).height();
-                 var docHeight = $( document ).height();
-                 var offset = 286;
-				if( ( $(window).scrollTop() > 176 ) && ((docHeight - offset) > winHeight)) {
-					$('nav').removeClass('navbar-default').addClass('navbar-fixed-top'); $('.box').addClass('marginTop100');
-				}
-				else {
-					$('nav').removeClass('navbar-fixed-top').addClass('navbar-default'); $('.box').removeClass('marginTop100');
+            <script type="text/javascript">
+                document.onscroll = function() {
+                     var winHeight = $(window).height();
+                     var docHeight = $( document ).height();
+                     var offset = 286;
+                    if( ( $(window).scrollTop() > 176 ) && ((docHeight - offset) > winHeight)) {
+                        $('nav').removeClass('navbar-default').addClass('navbar-fixed-top'); $('.box').addClass('marginTop100');
+                    }
+                    else {
+                        $('nav').removeClass('navbar-fixed-top').addClass('navbar-default'); $('.box').removeClass('marginTop100');
 
-				}
-			};
-		</script>
+                    }
+                };
+            </script>
 		
-        <div class="container">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+
+                    <a class="navbar-brand" href="index.html">EquoCommerce</a>
+                </div>
 			
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-				
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-				
-                <a class="navbar-brand" href="index.html">EquoCommerce</a>
-            </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
 			
-            <!-- Collect the nav links, forms, and other content for toggling -->
-			
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-           
-            	<ul class="nav navbar-nav allineamento">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav allineamento">
                    
             <!------------------------------------------CHI SIAMO ----------------------------------------------->                
-                    <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="chisiamo.html">
-                    Chi siamo <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li >
-                            <a href="schermata_tipo.html">Ci presentiamo</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">La nostra storia</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Cos'è il commercio equo solidale</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Dove operiamo?</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">L'impatto del nostro lavoro</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Cosa puoi trovare?</a></li>
-                            <li class="divider"></li>
-                            <li><a href="chisiamo.html">VISUALIZZA TUTTI</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-            <!------------------------------------------PRODOTTI ----------------------------------------------->               
-                 <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
-                    Prodotti <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                            
-                            <li class="dropdown-submenu">
-                            <a tabindex="-1" href="Alimenti.html">Alimenti</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="zucchero.html">Zucchero</a></li>
+                        <li class="dropdown">
+                        <a id="dLabel"  data-toggle="dropdown" data-target="#" href="chisiamo.html">
+                        Chi siamo <span class="caret"></span>
+                        </a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                               <li >
+                                <a href="schermata_tipo.html">Ci presentiamo</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">La nostra storia</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Cos'è il commercio equo solidale</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Dove operiamo?</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">L'impatto del nostro lavoro</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Cosa puoi trovare?</a></li>
+                                <li class="divider"></li>
+                                <li><a href="chisiamo.html">VISUALIZZA TUTTI</a></li>
+                            </ul>
+
+
+                        </li>
+                    <!------------------------------------------PRODOTTI ----------------------------------------------->               
+                         <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                            Prodotti <span class="caret"></span>
+                            </a>
+                                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+                                    <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="Alimenti.html">Alimenti</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="zucchero.html">Zucchero</a></li>
+                                            <li class="divider"></li>
+                                        <li><a href="#">Cioccolato</a></li>
+                                            <li class="divider"></li>
+                                        <li><a href="#">Snack salati</a></li>
+                                            <li class="divider"></li>
+                                        <li><a href="#">Snack dolci</a></li>
+
+
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Bevande</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Succhi</a></li><li class="divider"></li>
+                                        <li><a href="#">Vino</a></li>
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Tè e infusi</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Tè</a></li><li class="divider"></li>
+                                        <li><a href="#">Tisane</a></li>
+
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li><a href="#">Caffè</a></li> 
                                     <li class="divider"></li>
-                                <li><a href="#">Cioccolato</a></li>
-                                    <li class="divider"></li>
-                                <li><a href="#">Snack salati</a></li>
-                                    <li class="divider"></li>
-                                <li><a href="#">Snack dolci</a></li>
-                               
-                              
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Cosmesi</a>
+                                        <ul class="dropdown-menu"><li><a href="#">Trucchi</a></li><li class="divider"></li>
+                                        <li><a href="#">Profumi</a></li><li class="divider"></li>
+                                        <li><a href="#">Corpo</a></li><li class="divider"></li>
+                                        <li><a href="#">Capelli</a></li>
+
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Moda</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Vestiti</a></li><li class="divider"></li>
+                                        <li><a href="#">Pantaloni</a></li><li class="divider"></li>
+                                        <li><a href="#">Scarpe</a></li><li class="divider"></li>
+                                        <li><a href="#">Accessori</a></li><li class="divider"></li>
+                                        <li><a href="#">Bijoux</a></li>
+
+                                        </ul>
+                                    </li>   
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Oggetti per la casa</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Tessuti</a></li><li class="divider"></li>
+                                        <li><a href="#">Bomboniere</a></li><li class="divider"></li>
+                                        <li><a href="#">Cartoleria</a></li>
+
+                                        </ul>
+                                    </li>   
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Spezie</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Sale</a></li><li class="divider"></li>
+                                        <li><a tabindex="-1" href="#">Aromi</a></li>
+                                            </ul>
+                                    </li>
+
+
+
+                                     <li class="divider"></li><li><a href="prodotti.html">Tutti i prodotti</a></li>
                                 </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Bevande</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Succhi</a></li><li class="divider"></li>
-                                <li><a href="#">Vino</a></li>
-                                </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Tè e infusi</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Tè</a></li><li class="divider"></li>
-                                <li><a href="#">Tisane</a></li>
-                                
-                                </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li><a href="#">Caffè</a></li> 
-                            <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Cosmesi</a>
-                                <ul class="dropdown-menu"><li><a href="#">Trucchi</a></li><li class="divider"></li>
-                                <li><a href="#">Profumi</a></li><li class="divider"></li>
-                                <li><a href="#">Corpo</a></li><li class="divider"></li>
-                                <li><a href="#">Capelli</a></li>
-                               
-                                </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Moda</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Vestiti</a></li><li class="divider"></li>
-                                <li><a href="#">Pantaloni</a></li><li class="divider"></li>
-                                <li><a href="#">Scarpe</a></li><li class="divider"></li>
-                                <li><a href="#">Accessori</a></li><li class="divider"></li>
-                                <li><a href="#">Bijoux</a></li>
-                             
-                                </ul>
-                            </li>   
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Oggetti per la casa</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Tessuti</a></li><li class="divider"></li>
-                                <li><a href="#">Bomboniere</a></li><li class="divider"></li>
-                                <li><a href="#">Cartoleria</a></li>
-                                
-                                </ul>
-                            </li>   
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Spezie</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Sale</a></li><li class="divider"></li>
-                                <li><a tabindex="-1" href="#">Aromi</a></li>
-                                    </ul>
+
+
                             </li>
-                            
-                                    
-                            
-                             <li class="divider"></li><li><a href="prodotti.html">Tutti i prodotti</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-                      
-            <!------------------------------------------PRODUTTORI ----------------------------------------------->           
-                    <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
-                    produttori <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li >
-                            <a href="CostaRica.html">Costa rica</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Colombia</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">India</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Sri Lanka</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Malawi</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Mali</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Ghana</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Perù</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Papua New Guinea</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Vietnam</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Tutti i produttori</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-                      
-            <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
-                     <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
-                    For Business <span class="caret"></span>
-                    </a>
-                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li>
-                            <a href="#">Elenco licenziatari</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Elenco operatori flo-cert</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Lavora per noi</a></li>
-                            
-                        </ul>
-                    </li>
-            <!------------------------------------------NEWS e EVENTI ----------------------------------------------->           
-                    <li>
-                        <a href="news.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News &amp; Eventi</a>
-                    </li>
-            <!------------------------------------------BLOG ----------------------------------------------->
-                     <li>
-                        <a href="blog.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
-                    </li>
-            <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
-                     <li>
-                        <a href="accedi.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Area riservata</a>
-                    </li>
-            <!-------------------------------------------INFO  e CONTATTI------------------------------------------->	                    
-					<li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
-                    Info &amp; contatti <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Customer care</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Tempi di spedizione</a></li><li class="divider"></li>
-                                <li><a href="#">Metodi di pagamento</a></li><li class="divider"></li>
-                                <li><a href="#">Resi e rimborsi</a></li>
+
+                    <!------------------------------------------PRODUTTORI ----------------------------------------------->           
+                            <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
+                            produttori <span class="caret"></span>
+                            </a>
+                                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                   <li >
+                                    <a href="CostaRica.html">Costa rica</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Colombia</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">India</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Sri Lanka</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Malawi</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Mali</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Ghana</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Perù</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Papua New Guinea</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Vietnam</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Tutti i produttori</a></li>
                                 </ul>
-                            </li> 
-                            <li class="divider"></li>
-                            
-                            <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Area legale</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Condizioni di vendita</a></li><li class="divider"></li>
-                                 <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
-                                <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
-                                <li><a href="#">Cookies</a></li>
+
+
+                            </li>
+
+                    <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
+                             <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
+                            For Business <span class="caret"></span>
+                            </a>
+                                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                   <li>
+                                    <a href="#">Elenco licenziatari</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Elenco operatori flo-cert</a></li>
+                                    <li class="divider"></li> 
+                                    <li><a href="#">Lavora per noi</a></li>
+
                                 </ul>
-                            </li> 
-                            <li class="divider"></li><li><a href="#">Contatti</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-                <!-------------------------------------------  FINE ------------------------------------------->	
-				
-                </ul>
-            </div>
-        </div>
-    </nav>
-      
+                            </li>
+                    <!------------------------------------------NEWS e EVENTI ----------------------------------------------->           
+                            <li>
+                                <a href="news.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News &amp; Eventi</a>
+                            </li>
+                    <!------------------------------------------BLOG ----------------------------------------------->
+                             <li>
+                                <a href="blog.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
+                            </li>
+                    <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
+                             <li>
+                                <a href="accedi.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Area riservata</a>
+                            </li>
+                    <!-------------------------------------------INFO  e CONTATTI------------------------------------------->	                    
+                            <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
+                            Info &amp; contatti <span class="caret"></span>
+                            </a>
+                                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Customer care</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Tempi di spedizione</a></li><li class="divider"></li>
+                                        <li><a href="#">Metodi di pagamento</a></li><li class="divider"></li>
+                                        <li><a href="#">Resi e rimborsi</a></li>
+                                        </ul>
+                                    </li> 
+                                    <li class="divider"></li>
+
+                                    <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Area legale</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Condizioni di vendita</a></li><li class="divider"></li>
+                                         <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
+                                        <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
+                                        <li><a href="#">Cookies</a></li>
+                                        </ul>
+                                    </li> 
+                                    <li class="divider"></li><li><a href="#">Contatti</a></li>
+                                </ul>
+
+
+                            </li>
+                        <!-------------------------------------------  FINE ------------------------------------------->	
+                    </ul>
+                </div>
+           </div>
+        </nav> 
 <!--------------------------------- /FINE Navigation --------------------------------->
-
-      
- <div class="hidden-xs">                 
-        <br>
-        <br>
-        <br>
-</div>
-
-   
+ 
+         <div class="hidden-xs">                 
+                <br>
+                <br>
+                <br>
+        </div>
         <div class="container">
-        <div class="row">
-            <div class="box">
-                <!-- BREADCRUMBS -->
-                <ol class="breadcrumb hidden-print">
-					<li><a href="index.html">Home</a></li>
-					<li class="active">Blog</li>
-				</ol> 
-                <!-- POST -->
-			 <div class="row">
+            <div class="row">
+               <div class="box">
+                   <!-- BREADCRUMBS -->
+                   <ol class="breadcrumb hidden-print">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Blog</li>
+                   </ol> 
+                   <!-- POST -->
+			       <div class="row">
                      
-                              <!---------------------------------Menu Verticale-------------------------------->
-                        <div class="col-md-3 hidden-xs hidden-sm">
+                     <!---------------------------------Menu Verticale-------------------------------->
+                        <div class="col-md-3 hidden-sm hidden-xs">
                                 <br><br>
                            <div class="pad" id="MainMenu">
                               <div class="panel-group" id="accordion">
@@ -468,23 +457,20 @@
                             
     <!---------------------------------------------Contenuto----------------------------------->
                    
-                    <div class="col-md-6 col-xs-12">
-                       <div class="col-sm-12 text-center">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-12">
                                 <h2 class="titoli">BLOG</h2><br><br>
-               
+                            </div>
                         </div>
-                        
-                   
                         <div class="row">
                           <div class="col-sm-12">
                              <h3><strong><a href="articolo.html">Il cacao sostenibile del Costa Rica</a></strong></h3>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row pad">
                           <div class="col-sm-4">
-                            <a href="articolo.html" class="thumbnail">
-                                <img src="img/Cocoa.jpg" alt="Cacao Costa Rica" style="width: 200px; height: 100px">
-                            </a>
+                            <a href="articolo.html"><img class="img-responsive img-thumbnail" src="img/Cocoa.jpg" alt="Cacao Costa Rica"></a>
                           </div>
                           <div class="col-sm-8">     
                             <p>
@@ -493,7 +479,7 @@
                             <p><a class="btn" href="articolo.html">Leggi altro</a></p>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row pad">
                           <div class="col-sm-12">
                             <p>
                               Alessio Iezzi
@@ -501,22 +487,20 @@
                               | <a href="articolo.html">2 Commenti</a>
                               | 9 Condivisioni
                               | Tags: 
-                              <a href="risultati_tag.html"><span class="label label-info">Costa Rica</span></a> 
                               <a href="#"><span class="label label-info">Cacao</span></a> 
+                                <a href="risultati_tag.html"><span class="label label-info">Costa Rica</span></a> 
                             </p>
                           </div>
                         </div>
                         <hr>
-                            <div class="row">
+                        <div class="row">
                           <div class="col-sm-12">
                             <h3><strong><a href="#">KENYA: i produttori di caffè tornano a scuola!</a></strong></h3>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row pad">
                           <div class="col-sm-4">
-                            <a href="#" class="thumbnail">
-                                 <img src="img/Kenya_assemblea.jpg" alt="Kenya Scuola" style="width: 200px; height: 100px">
-                            </a>
+                                <a href="#"><img class="img-responsive img-thumbnail" src="img/Kenya_assemblea.jpg" alt="Kenya Scuola"></a>
                           </div>
                           <div class="col-sm-8">     
                             <p>
@@ -525,7 +509,7 @@
                             <p><a class="btn" href="#">Leggi altro</a></p>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row pad">
                           <div class="col-sm-12">
                             <p>
                                Silvia Zottin
@@ -538,16 +522,14 @@
                           </div>
                         </div>
                         <hr>
-                            <div class="row">
+                        <div class="row">
                           <div class="col-sm-12">
                             <h3><strong><a href="#">Più chiarezza nello standard del cacao</a></strong></h3>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row pad">
                           <div class="col-sm-4">
-                            <a href="#" class="thumbnail">
-                                 <img src="img/cacao.jpg" alt="cacao" style="width: 200px; height: 100px">
-                            </a>
+                              <a href="#"><img class="img-responsive img-thumbnail" src="img/cacao.jpg" alt="cacao"></a>
                           </div>
                           <div class="col-sm-8">     
                             <p>
@@ -556,7 +538,7 @@
                             <p><a class="btn" href="#">Leggi altro</a></p>
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row pad">
                           <div class="col-sm-12">
                             <p>
                               Massimiliano Gonella
@@ -570,20 +552,19 @@
                           </div>
                         </div>
                         <hr>
-                           <div class="row text-center">
-                               <div class="col-sm-12">
-                                    <a type="pager" href="#" class="btn btn-link">Carica articoli precedenti</a>
-                               </div>
+                        <div class="row allineamento">
+                            <div class="col-sm-12">
+                                <a type="pager" href="#" class="btn btn-link">Carica articoli precedenti</a>
                             </div>
+                        </div>
                     </div>
                    
 				
 <!----------------------TAG CLOUD-------------------------->
-                    <div class="col-md-3 hidden-print">
-                       
+                    <div class="col-md-3 col-sm-12 hidden-print">
                         <br><br>
-                        <div class="row pad">
-                            <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-12">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="exampleRadios" id="primo" value="option1" checked>
                                 <label class="form-check-label" for="primo">
@@ -599,7 +580,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-sm-12">
                         <br><br>
                         <div id="htmltagcloud">
                             <span id="0" class="wrd tagcloud2"><a href="#tagcloud">Art  </a></span>
@@ -643,46 +624,51 @@
     <br>
     <br>
 <!-------------------------------------------FOOTER-------------------------------------------------->   
-   <footer>
-        <div class="container hidden-print">
-            <div class="row paddingTop text-center">
-                <div class="footer-navigation text-center">
-                   
-                    <ul id="menu">
-                        <li><h4><a href="#">Contatti </a> | </h4></li>
-						<li><h4><a href="#">Area legale </a> | </h4></li>
-						<li><h4><a href="#">Customer care </a> | </h4></li>
-						<li><h4><a href="indice.html">Indice del sito </a> | </h4></li>
-                        <li><h4><a href="accedi.html">Area riservata </a> </h4></li>
-                    </ul>    
+       <footer>
+            <div class="container hidden-print allineamento">
+                <div class="row paddingTop">
+                    <div class="footer-navigation">
+                        <ul id="menu">
+                            <li><h4><a href="#">Contatti </a> | </h4></li>
+                            <li><h4><a href="#">Area legale </a> | </h4></li>
+                            <li><h4><a href="#">Customer care </a> | </h4></li>
+                            <li><h4><a href="indice.html">Indice del sito </a> | </h4></li>
+                            <li><h4><a href="accedi.html">Area riservata </a> </h4></li>
+                        </ul>    
+                    </div>
                 </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row padding0">
-                <div class="col-sm-5 col-sm-offset-1 text-center">
-				    <ul class="list-unstyled text-left">
-                        <li><h5>© Copyright 2018, GHT 2.0 </h5></li>
-				    </ul>
-					
-                </div>
-                <div class="col-sm-5 col-sm-offset-1 text-center">
-                    
+                <hr class="featurette-divider">
+                <div class="row padding0">
+                    <div class="col-sm-5 col-sm-offset-1">
                         <ul class="list-unstyled text-left">
-                            <li>
-                                <a href="http://www.facebook.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-facebook"></i></button></a>
-                                <a href="http://www.twitter.com"> <button type="submit" class="btn btn-default socialButton"><i class="fa fa-twitter"></i></button>  </a>
-                                <a href="http://www.pinterest.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-pinterest"></i></button></a>					
-                                <a href="http://www.instagram.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-instagram"></i></button></a>
-                             </li> 
+                            <li><h5>© Copyright 2018, GHT 2.0 </h5></li>
                         </ul>
+
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-1">
+
+                            <ul class="list-unstyled text-left">
+                                <li>
+                                    <a href="http://www.facebook.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-facebook"></i></button></a>
+                                    <a href="http://www.twitter.com"> <button type="submit" class="btn btn-default socialButton"><i class="fa fa-twitter"></i></button>  </a>
+                                    <a href="http://www.pinterest.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-pinterest"></i></button></a>					
+                                    <a href="http://www.instagram.com"><button type="submit" class="btn btn-default socialButton"><i class="fa fa-instagram"></i></button></a>
+                                 </li> 
+                            </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- Script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <!-- Script -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+        <!-- Script to Activate the Carousel -->
+            <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+            </script>
 
-</body>
+    </body>
 </html>
