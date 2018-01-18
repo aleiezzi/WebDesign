@@ -32,7 +32,7 @@ h2{
 
 #titolo{
     font-family: 'Dosis', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .navbar li a {
@@ -68,8 +68,11 @@ footer {
 }
 
 footer h5 {
-   
     color: white;
+}
+
+footer h4{
+    font-size: 14px;
 }
 
 #prodotti{
@@ -96,8 +99,6 @@ footer h5 {
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
-   
-
 }
 
 form{
@@ -134,17 +135,14 @@ form{
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
-    
-
 }
 
-.img-responsive {
-  max-height: 200px;
-
-    max-width: 200px;
-
+.carousel-caption > h1{
+    font-size: 25px;
 }
 
+
+/*----------------------------------------------------------------------------------------------------*/
 @media screen and (min-width:768px) {
     .brand /* sopra 768px */{
         display: inherit;
@@ -165,26 +163,35 @@ form{
 	
     
     #titolo{
-    font-family: 'Dosis', sans-serif;
-    font-size: 25px;
-}
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+    }
     
     
-.titoli{
-    font-family: 'Baloo Tamma', cursive;
-    font-size: 4em;
-    text-transform: uppercase;
-    text-align: center;
-}
+    .titoli{
+        font-family: 'Baloo Tamma', cursive;
+        font-size: 4em;
+        text-transform: uppercase;
+        text-align: center;
+    }
     
     h2{
-    font-size: 2.5em;
-}
+        font-size: 2.5em;
+    }
     
     p{
-    font-family: 'Dosis', sans-serif;
-    font-size: 18px;
-}
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+    }
+    
+    .featurette-image {
+        height: 190px;
+        width: 340px;
+    }
+    
+    .carousel-caption > h1{
+    font-size: 40px;
+    }
     
 	.brand a:hover{
 		color :#eaeaea;
@@ -233,17 +240,25 @@ form{
 	.respActivity  /* sopra 768px */  {
 		width: 90%;
 	}
+    
+    footer h4{
+    font-size: 16px;
+    }
 }
 
+
+/*------------------------------------------------------------------------------------------*/
 @media screen and (min-width:1200px) /* sopra 1200px */ {
     .box:after {
         content: '';
         display: table;
         clear: both;
     }
-
-	
-
+    
+    .featurette-image {
+        height: 250px;
+        width: 400px;
+    }
 }
 
 
