@@ -1,6 +1,5 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    
     background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,7 +16,7 @@ p{
 
 .titoli{
     font-family: 'Baloo Tamma', cursive;
-    font-size: 42px;
+    font-size: 4em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -104,8 +103,8 @@ form{
 }
 
 .pad{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
     text-align: justify;
 }
 
@@ -135,7 +134,12 @@ form{
 
 }
 
+.img-responsive {
+  max-height: 200px;
 
+    max-width: 200px;
+
+}
 
 @media screen and (min-width:768px) {
     .brand /* sopra 768px */{
@@ -159,16 +163,11 @@ form{
 		color :#eaeaea;
 		text-decoration: none;
 	}
-    
-    
-     
-
 
     .navbar-header /* sopra 768px */{
         display: none;
     }
 
-    
 
     .navbar-default, .navbar-fixed-top /* sopra 768px */{
         border: none;
@@ -337,4 +336,5 @@ hgroup h2.lead { font: normal normal 1.125em "Open Sans","Helvetica Neue",Helvet
 .tagcloud8{font-size:3.6em;color:#FF7F50;z-index:2}.tagcloud8 a{color:#FF7F50}
 .tagcloud9{font-size:4.0em;color:#133B97;z-index:1}.tagcloud9 a{color:#133B97}
 .freq{font-size:10pt !important;color:#bbb}#credit{text-align:center;color:#333;margin-bottom:0.6em;font:0.7em 'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif}#credit a:link{color:#777;text-decoration:none}#credit a:visited{color:#777;text-decoration:none}#credit a:hover{color:white;background-color:#05f}#credit a:active{text-decoration:underline}
+
 
