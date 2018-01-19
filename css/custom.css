@@ -45,21 +45,11 @@ h2{
 	display: none;
 }
 
-.navbar .navbar-brand:hover,
-.navbar .navbar-brand:focus,
-.navbar .navbar-brand:active,
-.navbar .navbar-brand.active {
-    color: #ffffff;
-}  
-
 
 ul#menu li{
    display: inline;
      float: left;
     list-style: none;
-   /* padding: 5px 40px;
-    margin-left: 20px;
-    margin-right: 20px;*/
 }
 
 footer {
@@ -95,8 +85,8 @@ footer h4{
 	}
 
 .box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
+    margin-bottom: 2%;
+    padding: 3% 1.5%;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
@@ -205,12 +195,10 @@ form{
 
     .navbar-default, .navbar-fixed-top /* sopra 768px */{
         border: none;
-        /*background-color: rgba(255,255,255,0.9);*/
 		display: block;
     }
 	
 	a .nav /* sopra 768px */{
-		/*color: #777;*/
 		font-size: 2%;
 	}
 
@@ -222,8 +210,6 @@ form{
     }
 	
 	.nav > li > a /* sopra 768px */{
-		/*color: #000000;*/
-		/*background-color: rgba(255,255,255,0.5);*/
 		padding: 20px;
 		padding-left: 15px;
 		padding-right: 15px;
