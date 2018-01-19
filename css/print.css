@@ -7,6 +7,7 @@
 		color: #000;
 		font-size: 12px;
 	}
+    
 	div.container {
 		width: auto;
 	}
@@ -20,7 +21,13 @@
 		width: 100%;
 	}
 	
+    .brand{
+        color: black;
+    }
+    
 	h1{
-		font-size: 14px;
+		font-size: 18px;
+        
 	}
+    
 }
