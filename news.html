@@ -49,262 +49,259 @@
         
 <!-------------------------------------- Navigation ---------------------------------------->
        
-       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
            <!--<nav class="navbar navbar-default hidden-print" role="navigation">-->
-        <script type="text/javascript">
-			document.onscroll = function() {
-                 var winHeight = $(window).height();
-                 var docHeight = $( document ).height();
-                 var offset = 286;
-				if( ( $(window).scrollTop() > 176 ) && ((docHeight - offset) > winHeight)) {
-					$('nav').removeClass('navbar-default').addClass('navbar-fixed-top'); $('.box').addClass('marginTop100');
-				}
-				else {
-					$('nav').removeClass('navbar-fixed-top').addClass('navbar-default'); $('.box').removeClass('marginTop100');
+            <script type="text/javascript">
+                document.onscroll = function() {
+                     var winHeight = $(window).height();
+                     var docHeight = $( document ).height();
+                     var offset = 286;
+                    if( ( $(window).scrollTop() > 176 ) && ((docHeight - offset) > winHeight)) {
+                        $('nav').removeClass('navbar-default').addClass('navbar-fixed-top'); $('.box').addClass('marginTop100');
+                    }
+                    else {
+                        $('nav').removeClass('navbar-fixed-top').addClass('navbar-default'); $('.box').removeClass('marginTop100');
 
-				}
-			};
-		</script>
+                    }
+                };
+            </script>
 		
-        <div class="container">
-			
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-				
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-				
-                <a class="navbar-brand" href="index.html">EquoCommerce</a>
-            </div>
-			
-            <!-- Collect the nav links, forms, and other content for toggling -->
-			
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-           
-            	<ul class="nav navbar-nav allineamento">
-                   
-            <!------------------------------------------CHI SIAMO ----------------------------------------------->                
-                    <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="chisiamo.html">
-                    Chi siamo <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li >
-                            <a href="schermata_tipo.html">Ci presentiamo</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">La nostra storia</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Cos'è il commercio equo solidale</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Dove operiamo?</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">L'impatto del nostro lavoro</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Cosa puoi trovare?</a></li>
-                            <li class="divider"></li>
-                            <li><a href="chisiamo.html">VISUALIZZA TUTTI</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-            <!------------------------------------------PRODOTTI ----------------------------------------------->               
-                 <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
-                    Prodotti <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                            
-                            <li class="dropdown-submenu">
-                            <a tabindex="-1" href="Alimenti.html">Alimenti</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="zucchero.html">Zucchero</a></li>
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                    <a class="navbar-brand" href="index.html">EquoCommerce</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav allineamento">
+
+                   <!------------------------------------------CHI SIAMO ----------------------------------------------->                
+                        <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="chisiamo.html">
+                            Chi siamo <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                               <li >
+                                <a href="schermata_tipo.html">Ci presentiamo</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">La nostra storia</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Cos'è il commercio equo solidale</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Dove operiamo?</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">L'impatto del nostro lavoro</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Cosa puoi trovare?</a></li>
+                                <li class="divider"></li>
+                                <li><a href="chisiamo.html">VISUALIZZA TUTTI</a></li>
+                            </ul>
+
+
+                        </li>
+                     <!------------------------------------------PRODOTTI ----------------------------------------------->               
+                        <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="prodotti.html">
+                            Prodotti <span class="caret"></span>
+                            </a>
+                                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+                                    <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="Alimenti.html">Alimenti</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="zucchero.html">Zucchero</a></li>
+                                            <li class="divider"></li>
+                                        <li><a href="#">Cioccolato</a></li>
+                                            <li class="divider"></li>
+                                        <li><a href="#">Snack salati</a></li>
+                                            <li class="divider"></li>
+                                        <li><a href="#">Snack dolci</a></li>
+
+
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Bevande</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Succhi</a></li><li class="divider"></li>
+                                        <li><a href="#">Vino</a></li>
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Tè e infusi</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Tè</a></li><li class="divider"></li>
+                                        <li><a href="#">Tisane</a></li>
+
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li><a href="#">Caffè</a></li> 
                                     <li class="divider"></li>
-                                <li><a href="#">Cioccolato</a></li>
-                                    <li class="divider"></li>
-                                <li><a href="#">Snack salati</a></li>
-                                    <li class="divider"></li>
-                                <li><a href="#">Snack dolci</a></li>
-                               
-                              
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Cosmesi</a>
+                                        <ul class="dropdown-menu"><li><a href="#">Trucchi</a></li><li class="divider"></li>
+                                        <li><a href="#">Profumi</a></li><li class="divider"></li>
+                                        <li><a href="#">Corpo</a></li><li class="divider"></li>
+                                        <li><a href="#">Capelli</a></li>
+
+                                        </ul>
+                                    </li> 
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Moda</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Vestiti</a></li><li class="divider"></li>
+                                        <li><a href="#">Pantaloni</a></li><li class="divider"></li>
+                                        <li><a href="#">Scarpe</a></li><li class="divider"></li>
+                                        <li><a href="#">Accessori</a></li><li class="divider"></li>
+                                        <li><a href="#">Bijoux</a></li>
+
+                                        </ul>
+                                    </li>   
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Oggetti per la casa</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Tessuti</a></li><li class="divider"></li>
+                                        <li><a href="#">Bomboniere</a></li><li class="divider"></li>
+                                        <li><a href="#">Cartoleria</a></li>
+
+                                        </ul>
+                                    </li>   
+                                     <li class="divider"></li>
+
+                                     <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Spezie</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">Sale</a></li><li class="divider"></li>
+                                        <li><a tabindex="-1" href="#">Aromi</a></li>
+                                            </ul>
+                                    </li>
+
+
+
+                                     <li class="divider"></li><li><a href="prodotti.html">Tutti i prodotti</a></li>
                                 </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Bevande</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Succhi</a></li><li class="divider"></li>
-                                <li><a href="#">Vino</a></li>
-                                </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Tè e infusi</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Tè</a></li><li class="divider"></li>
-                                <li><a href="#">Tisane</a></li>
-                                
-                                </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li><a href="#">Caffè</a></li> 
-                            <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Cosmesi</a>
-                                <ul class="dropdown-menu"><li><a href="#">Trucchi</a></li><li class="divider"></li>
-                                <li><a href="#">Profumi</a></li><li class="divider"></li>
-                                <li><a href="#">Corpo</a></li><li class="divider"></li>
-                                <li><a href="#">Capelli</a></li>
-                               
-                                </ul>
-                            </li> 
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Moda</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Vestiti</a></li><li class="divider"></li>
-                                <li><a href="#">Pantaloni</a></li><li class="divider"></li>
-                                <li><a href="#">Scarpe</a></li><li class="divider"></li>
-                                <li><a href="#">Accessori</a></li><li class="divider"></li>
-                                <li><a href="#">Bijoux</a></li>
-                             
-                                </ul>
-                            </li>   
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Oggetti per la casa</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Tessuti</a></li><li class="divider"></li>
-                                <li><a href="#">Bomboniere</a></li><li class="divider"></li>
-                                <li><a href="#">Cartoleria</a></li>
-                                
-                                </ul>
-                            </li>   
-                             <li class="divider"></li>
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Spezie</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Sale</a></li><li class="divider"></li>
-                                <li><a tabindex="-1" href="#">Aromi</a></li>
+                        </li>
+
+                <!------------------------------------------PRODUTTORI ----------------------------------------------->           
+                        <li class="dropdown">
+                        <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
+                        produttori <span class="caret"></span>
+                        </a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                               <li >
+                                <a href="CostaRica.html">Costa rica</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Colombia</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">India</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Sri Lanka</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Malawi</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Mali</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Ghana</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Perù</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Papua New Guinea</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Vietnam</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Tutti i produttori</a></li>
+                            </ul>
+                        </li>
+
+                <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
+                        <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
+                            For Business <span class="caret"></span>
+                            </a>
+                             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                               <li>
+                                <a href="#">Elenco licenziatari</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Elenco operatori flo-cert</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#">Lavora per noi</a></li>
+
+                            </ul>
+                        </li>
+                <!------------------------------------------NEWS e EVENTI ----------------------------------------------->           
+                        <li>
+                            <a href="news.html"> News &amp; Eventi</a>
+                        </li>
+                <!------------------------------------------BLOG ----------------------------------------------->
+                        <li>
+                            <a href="blog.html"> Blog</a>
+                        </li>
+                <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
+                        <li>
+                            <a href="accedi.html"> Area riservata</a>
+                        </li>
+                <!-------------------------------------------INFO  e CONTATTI------------------------------------------->	                    
+                        <li class="dropdown">
+                            <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
+                            Info &amp; contatti <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+                                 <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Customer care</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="#">Tempi di spedizione</a></li><li class="divider"></li>
+                                    <li><a href="#">Metodi di pagamento</a></li><li class="divider"></li>
+                                    <li><a href="#">Resi e rimborsi</a></li>
                                     </ul>
-                            </li>
-                            
-                                    
-                            
-                             <li class="divider"></li><li><a href="prodotti.html">Tutti i prodotti</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-                      
-            <!------------------------------------------PRODUTTORI ----------------------------------------------->           
-                    <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
-                    produttori <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li >
-                            <a href="CostaRica.html">Costa rica</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Colombia</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">India</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Sri Lanka</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Malawi</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Mali</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Ghana</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Perù</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Papua New Guinea</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Vietnam</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Tutti i produttori</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-                      
-            <!------------------------------------------FOR BUSINESS ----------------------------------------------->               
-                     <li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
-                    For Business <span class="caret"></span>
-                    </a>
-                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                           <li>
-                            <a href="#">Elenco licenziatari</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Elenco operatori flo-cert</a></li>
-                            <li class="divider"></li> 
-                            <li><a href="#">Lavora per noi</a></li>
-                            
-                        </ul>
-                    </li>
-            <!------------------------------------------NEWS e EVENTI ----------------------------------------------->           
-                    <li>
-                        <a href="news.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  News &amp; Eventi</a>
-                    </li>
-            <!------------------------------------------BLOG ----------------------------------------------->
-                     <li>
-                        <a href="blog.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Blog</a>
-                    </li>
-            <!------------------------------------------AREA RISERVATA ----------------------------------------------->         
-                     <li>
-                        <a href="accedi.html"><span class="hidden-lg hidden-md hidden-sm" aria-hidden="true"></span>  Area riservata</a>
-                    </li>
-            <!-------------------------------------------INFO  e CONTATTI------------------------------------------->	                    
-					<li class="dropdown">
-                    <a id="dLabel"  data-toggle="dropdown" data-target="#" href="#">
-                    Info &amp; contatti <span class="caret"></span>
-                    </a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                            
-                             <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Customer care</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Tempi di spedizione</a></li><li class="divider"></li>
-                                <li><a href="#">Metodi di pagamento</a></li><li class="divider"></li>
-                                <li><a href="#">Resi e rimborsi</a></li>
-                                </ul>
-                            </li> 
-                            <li class="divider"></li>
-                            
-                            <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Area legale</a>
-                                <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Condizioni di vendita</a></li><li class="divider"></li>
-                                 <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
-                                <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
-                                <li><a href="#">Cookies</a></li>
-                                </ul>
-                            </li> 
-                            <li class="divider"></li><li><a href="#">Contatti</a></li>
-                        </ul>
-                        
-                        
-                    </li>
-                <!-------------------------------------------  FINE ------------------------------------------->	
-				
-                </ul>
+                                </li> 
+                                <li class="divider"></li>
+
+                                <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Area legale</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="#">Condizioni di vendita</a></li><li class="divider"></li>
+                                     <li><a href="#">Condizioni d'uso</a></li><li class="divider"></li>
+                                    <li><a href="#">Politica di privacy</a></li><li class="divider"></li>
+                                    <li><a href="#">Cookies</a></li>
+                                    </ul>
+                                </li> 
+                                <li class="divider"></li><li><a href="#">Contatti</a></li>
+                            </ul>
+
+
+                        </li>
+                    <!---------------------------------------Carrello  ---------------------------------------------->   
+                        <li class="hidden-xl hidden-lg hidden-md hidden-sm">
+                            <a href="carrello.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Carrello</a>
+                        </li>    
+
+                    <!-------------------------------------------  FINE ------------------------------------------->	
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
       
 <!--------------------------------- /FINE Navigation --------------------------------->
 
@@ -474,97 +471,80 @@
                        
                           
 <!------------------------------------------------------------------------------------------------------------------------------------>
-          <div class="col-md-9 col-xs-12">                 
-            <div class="col-sm-12 text-center">
-                <h2 class="titoli">NEWS &amp; EVENTI</h2><br><br>
-            </div>
-                           
-                        <div class="row pad">
-                            <div class="col-sm-12 text-center">
-                            <h3><strong>Prossimamente</strong></h3>
-                            </div>
-                          <div class="col-sm-12">
-                             <h3><strong><a href="articolo_news.html">Fa' la cosa giusta!</a></strong></h3>
-                          </div>
-                        </div>
-                        <div class="row pad">
-                          <div class="col-sm-4">
-                            <a href="articolo_news.html" class="thumbnail">
-                                <img src="img/falacosagiusta.jpg" alt="Fa' la cosa giusta!" style="width: 300px ; height: 200px">
-                            </a>
-                          </div>
-                          <div class="col-sm-8">
-                              <p> 15 Marzo 2018 - Perugia
-                              </p>
-                            <p>Più di 200 fra agricoltori biologici, botteghe del commercio equo, associazioni, cooperative sociali, e aziende che propongono prodotti e servizi rispettosi dell’ambiente. Un’occasione per incontrare e quindi conoscere da vicino aziende, progetti e buone prassi amministrative, che sul territorio locale, ma non solo, stanno costruendo un’economia più attenta alle persone e all’ambiente.
-                            </p>
-                            <p><a class="btn" href="articolo_news.html">Maggiori informazioni</a></p>
-                          </div>
-                        </div>
-                        
-                        <hr>
-                            <div class="row pad">
-                          <div class="col-sm-12">
-                            <h3><strong><a href="#">Tutta un'altra cosa</a></strong></h3>
-                          </div>
-                        </div>
-                        <div class="row pad">
-                          <div class="col-sm-4">
-                            <a href="#" class="thumbnail">
-                                <img src="img/tuttaunaltracosa.png" alt="Tutta un'altra cosa" style="width: 300px;height: 200px">
-                            </a>
-                          </div>
-                          <div class="col-sm-8">
-                              <p> 3 Febbraio 2018 - Ferrara
-                              </p>
-                            <p>
-                              Tuttaunaltracosa è la carovana equosolidale che ogni anno, con la sua nuova tappa, porta i progetti delle Botteghe del Mondo e delle centrali, gli artigiani del sud del mondo, i volontari di tutta Italia a spasso per la penisola.
-                            </p>
-                            <p><a class="btn" href="#">Maggiori informazioni</a></p>
-                          </div>
-                            </div>
-                           <hr>
-                           <div class="row pad">
-                            <div class="col-sm-12 text-center">
-                             <h3><strong>Eventi trascorsi</strong></h3>
-                          </div>
-                               </div>
-                           <div class="row pad">
-                           <div class="col-sm-12">
-                             <h3><strong><a href="#">L'artigianato in fiera</a></strong></h3>
-                          </div>
-                             <div class="col-sm-4">
-                            <a href="#" class="thumbnail">
-                                <img src="img/artigianoinfieramilano.jpg" alt="L'artigianato in fiera" style="width: 300px;height: 200px">
-                            </a>
-                          </div>
-                          <div class="col-sm-8">
-                              <p> 2/10 Dicembre 2017 - Fieramilano Rho-Pero
-                              </p>
-                            <p>
-                              L’Artigiano in Fiera è la manifestazione internazionale che da oltre vent’anni valorizza l’artigiano e i prodotti del suo lavoro. L’unico evento al mondo che comunica la bellezza e la bontà delle arti e dei mestieri.
-                            </p>
-                            <p><a class="btn" href="#">Maggiori informazioni</a></p>
-                          </div>
-                            </div>
-                           <hr>
-                           <div class="row text-center">
-                               <div class="col-sm-12">
-                               <a type="submit" href="#" class="btn btn-link">Carica altro</a>
-                           </div>
-                </div>
-                        </div>
-             </div>
-          </div>
-    
-        
+          <div class="col-md-9 col-xs-12">
+              <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <h2 class="titoli">NEWS &amp; EVENTI</h2><br><br>
+                  </div>
+              </div>        
+              <div class="row pad">
+                  <div class="col-sm-12 allineamento">
+                      <h3><strong>Prossimamente</strong></h3>
+                  </div>
+              </div>
+              <div class="row pad">
+                  <div class="col-sm-12">
+                      <h3><strong><a href="articolo_news.html">Fa' la cosa giusta!</a></strong></h3>
+                  </div>
+              </div>
+              <div class="row pad">
+                  <div class="col-sm-4">
+                      <a href="articolo_news.html"><img class="img-thumbnail img-responsive" src="img/falacosagiusta.jpg" alt="Fa' la cosa giusta!"></a>
+                  </div>
+                  <div class="col-sm-8">
+                      <p> 15 Marzo 2018 - Perugia </p>
+                      <p>Più di 200 fra agricoltori biologici, botteghe del commercio equo, associazioni, cooperative sociali, e aziende che propongono prodotti e servizi rispettosi dell’ambiente. Un’occasione per incontrare e quindi conoscere da vicino aziende, progetti e buone prassi amministrative, che sul territorio locale, ma non solo, stanno costruendo un’economia più attenta alle persone e all’ambiente.</p>
+                      <p><a class="btn" href="articolo_news.html">Maggiori informazioni</a></p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row pad">
+                  <div class="col-sm-12">
+                      <h3><strong><a href="#">Tutta un'altra cosa</a></strong></h3>
+                  </div>
+              </div>
+              <div class="row pad">
+                  <div class="col-sm-4">
+                      <a href="#"><img class="img-thumbnail img-responsive" src="img/tuttaunaltracosa.png" alt="Tutta un'altra cosa"></a>
+                  </div>
+                  <div class="col-sm-8">
+                        <p> 3 Febbraio 2018 - Ferrara </p>
+                        <p>Tuttaunaltracosa è la carovana equosolidale che ogni anno, con la sua nuova tappa, porta i progetti delle Botteghe del Mondo e delle centrali, gli artigiani del sud del mondo, i volontari di tutta Italia a spasso per la penisola. </p>
+                        <p><a class="btn" href="#">Maggiori informazioni</a></p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row pad">
+                  <div class="col-sm-12 allineamento">
+                      <h3><strong>Eventi trascorsi</strong></h3>
+                  </div>
+              </div>
+              <div class="row pad">
+                  <div class="col-sm-12">
+                    <h3><strong><a href="#">L'artigianato in fiera</a></strong></h3>
+                  </div>
+              </div>
+              <div class="row pad">
+                  <div class="col-sm-4">
+                    <a href="#"><img class="img-thumbnail img-responsive" src="img/artigianoinfieramilano.jpg" alt="L'artigianato in fiera"></a>
+                  </div>
+                  <div class="col-sm-8">
+                        <p> 2/10 Dicembre 2017 - Fieramilano Rho-Pero</p>
+                        <p> L’Artigiano in Fiera è la manifestazione internazionale che da oltre vent’anni valorizza l’artigiano e i prodotti del suo lavoro. L’unico evento al mondo che comunica la bellezza e la bontà delle arti e dei mestieri.</p>
+                        <p><a class="btn" href="#">Maggiori informazioni</a></p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row allineamento">
+                 <div class="col-sm-12">
+                    <a type="submit" href="#" class="btn btn-link">Carica altro</a>
+                 </div>
+              </div>
          </div>
         </div>
-        
-        
-
-
-
+    </div>
+    </div>
+    </div>
         
     <br>
     <br>
